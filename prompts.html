@@ -1,0 +1,57 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="V2 전체 계약과 실행 보완"><title>복사 지시문 · AI 영상 제작 가이드</title><link rel="stylesheet" href="assets/style.css"><script src="assets/app.js" defer></script></head><body><header class="site-top"><div class="wrap"><div class="masthead"><a href="index.html"><b>AI VIDEO / 제작 방법 전체 공개판</b></a><a href="https://github.com/geben147-create/ai-video-production-guide">GitHub ↗</a></div><nav class="page-nav" aria-label="전체 페이지"><a  href="index.html">전체 안내</a><a  href="complete.html">전체 통합판</a><a  href="comparison.html">좌우 비교</a><a  href="characters.html">캐릭터·이미지</a><a  href="camera.html">카메라·프레이밍</a><a  href="continuity.html">컷·연속성</a><a  href="acting.html">대본·연기</a><a  href="audio.html">일본어·립싱크</a><a  href="editing.html">길이·자동 편집</a><a  href="automation.html">자동화·무료 조건</a><a aria-current="page" href="prompts.html">복사 지시문</a><a  href="qc.html">최종 검수</a><a  href="sources.html">출처·변경 기록</a><a href="archive-v1.html">V1 기록</a><a href="archive-v2.html">V2 기록</a></nav></div></header><main><div class="wrap page-title"><div class="eyebrow">PUBLIC EDITION · 2026.09.05</div><h1>복사 지시문</h1><p>V2 전체 계약과 실행 보완</p></div><section class="section" id="prompt">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">COPYABLE TOTAL CONTRACT</div><h2 class="section-title">다른 세션에 그대로 전달</h2></div><p class="section-intro">기존 영상 문법과 이번 💗01~13을 하나로 합친 범용 지시문입니다. 특정 모델을 강제하지 않고, 설계 후 각 제공자 어댑터가 실제 프롬프트로 번역합니다.</p></div>
+        <div class="prompt-shell"><div class="prompt-head"><b>AI 영상 범용 제작 계약 V2</b><button class="copy" id="copyPrompt">지시문 복사</button></div><pre id="masterPrompt">현재 영상의 모델을 먼저 바꾸지 말고 영상 문법과 입력 구조부터 재설계하라.
+
+[IDENTITY]
+1. 캐릭터 정본은 머리 없는 전신 정면 / 전신 후면(뒤통수 포함) / 얼굴 클로즈업의 3패널로 만든다. 동일 얼굴 정보를 여러 패널에 반복하지 않는다.
+2. 모든 생성 프롬프트 맨 앞에 “얼굴과 의상만 참조 / 참조 배경 사용 금지 / 해당 인물은 정확히 한 명”을 잠근다.
+3. duplicate_face, unexpected_person, face drift를 독립 실패 사유로 검사한다.
+
+[NARRATIVE & SHOT]
+4. 모든 대사를 PRESENTER_ADDRESS / IN_WORLD_EPISODE / BRIDGED_EPISODE / VOICE_LED_MONTAGE / NO_DIALOGUE 중 하나로 분류한다.
+5. 각 장면에 STORY_FUNCTION, SHOT_SIZE, COMPOSITION_TYPE, CAMERA_POSITION, SPATIAL_ANCHOR, SCREEN_DIRECTION을 기록한다.
+6. 같은 크기를 이유 없이 반복하지 않는다. 의도된 반복은 허용하고 크기·시점·정보 변화로 컷의 목적을 기록한다. WIDE → OTS → MEDIUM → INSERT → REACTION 중 의미에 맞는 변주를 사용한다.
+7. shot_size와 화면 속 인원 관계를 분리한다. SINGLE / TWO-SHOT / THREE-SHOT / GROUP / OTS / INSERT / CUTAWAY / REACTION을 별도 지정한다.
+8. 장소 기준 이미지는 정면만 만들지 말고 높은 3/4 또는 측면 공간 마스터를 함께 준비한다. 출입구·카운터·인물 위치·이동 경로를 잠근다.
+
+[CAMERA]
+9. 장면 묘사는 SUBJECT+ACTION / SCENE+ENVIRONMENT / VISUAL STYLE로 분리하고 CAMERA 블록을 독립 자산으로 둔다.
+10. CAMERA는 MOVEMENT / SPEED / FRAMING LOCK / END STATE 네 요소를 모두 갖는다. END에는 최종 위치, 최종 샷 크기, 감속, 안정 유지 프레임을 명시한다.
+11. 한 클립에 카메라 무브먼트는 하나만 사용한다. STATIC도 의도된 기법이다.
+12. 카메라는 감정 목적에서 고른다: 각성=dolly in, 압박=slow zoom, 이동 몰입=follow, 걸으며 대사=reverse tracking, 불안=handheld/Dutch, 충격=dolly zoom, 정보 공개=rack focus, 규모=drone pullback.
+13. MOVEMENT / ANGLE / SHOT SIZE / COMPOSITION을 서로 다른 축으로 기록한다.
+
+[ACTION & CONTINUITY]
+14. 각 영상 프롬프트는 PREVIOUS_STATE → START_STATE → SINGLE_ACTING_BEAT → SPEECH → PHYSICAL_ACTION → CAMERA → END_STATE → CONTINUITY_HANDOFF → NEGATIVE 순서로 작성한다.
+15. 걷기·들기·돌기 같은 행동은 앞 컷에서 시작하고 다음 컷에서 마무리하는 CUT_ON_ACTION으로 설계한다.
+16. 인물이 이동하면 지나치는 몸, 이동하는 시선, 손·발, 소품, 오프스크린 소리 중 하나로 시간과 거리를 연결한다.
+17. 같은 공간은 OTS, 전경 실루엣, 시선 매치 중 하나로 증명한다.
+18. CONTINUE만 검증된 END HOLD 프레임을 다음 시작 이미지로 쓴다. 카메라 END와 인물 state_out을 함께 저장한다.
+
+[DURATION & AUDIO]
+19. 컷 목적이 길이를 결정한다: 인서트 3–4초 / 이동·액션 5–7초 / 감정·대사 7–10초 / 설정 5–8초 / 의도된 롱테이크만 10초 이상.
+20. 모델 최대 길이를 기본값으로 채우지 않는다. 단일 사건 길이로 생성하고 실패한 짧은 컷만 재생성한다.
+21. 화면에 보이는 화자는 최종 TTS 오디오 참조 립싱크를 사용한다. 반응이 핵심이면 듣는 인물을 보여주고 화자는 화면 밖에 둔다.
+22. 시청자 설명은 상황→선택→결과를 짧게 말한 뒤 극중 행동으로 복귀한다. 모든 대사를 렌즈에 말하지 않는다.
+
+[QC & DELIVERY]
+23. 립싱크 QC, 연출 QC, 마지막 1초 END QC, 파일 A/V QC, 비용 QC를 분리한다.
+24. 입이 맞더라도 시선·표정·행동 목적·공간·시간·샷 리듬이 틀리면 실패다.
+25. 기존 컷은 ACCEPT / EDIT_ONLY / REGENERATE로 분류하고 실패 컷만 다시 생성한다.
+26. 장르 스타일은 PROJECT_ADAPTER, Pollo/MiniMax/Kling 필드와 비용은 PROVIDER_ADAPTER에 둔다.
+
+장면별 보고 필드:
+scene_id / narrative_mode / story_function / identity_lock / shot_size / composition_type / camera_movement / camera_speed / camera_framing_lock / camera_end_state / spatial_anchor / action_phase / transition_type / duration_seconds / previous_state_out / current_state_in / audio_lipsync / directing_qc / av_qc / cost_qc / verdict.</pre></div>
+      </div>
+    </section><section class="section" id="handoff-prompt"><div class="wrap"><div class="section-head"><div><div class="eyebrow">FIELD NOTES / HANDOFF-PROMPT</div><h2 class="section-title">다른 세션에 보낼 보완 지시</h2></div><p class="section-intro">아래 내용을 기존 V2 지시문 뒤에 붙이면 실제 제작과 공개 기록을 구분하면서 일본어 편집까지 이어집니다.</p></div><div class="prompt-shell"><div class="prompt-head"><b>실행 시 확인할 보완 계약</b><button class="copy" data-copy="handoff-text">지시문 복사</button></div><pre id="handoff-text">모든 제작 기록을 먼저 장면별 ACCEPT / EDIT_ONLY / REGENERATE / UNVERIFIED로 분류한다.
+현재 제공자 스키마·엔드포인트와 정확한 입력으로 음성 참조 지원과 0크레딧을 확인한다. 모델명만으로 판단하지 않는다.
+실제 WAV 우선. 화면 속 화자의 입·음성 시작/중간/끝을 확인하고 입력 음원 해시 일치만으로 립싱크 합격 처리하지 않는다.
+3패널은 머리 없는 전신 정면 / 뒤통수를 포함한 전신 후면 / 얼굴 클로즈업을 출발점으로 한다. 승인 정본을 폐기하지 말고 모델별로 필요한 참조만 사용한다.
+단일 인물 잠금은 캐릭터 복제 방지이며 투샷·군중 등 의도된 인원수와 충돌하면 안 된다.
+동일 샷 CONTINUE는 검증된 마지막 프레임을 사용한다. 새 카메라 각도·반응·시간 점프는 독립 승인 시작 이미지와 동작/공간 매치로 연결한다.
+END_HOLD는 QC와 생성 여유 구간이다. 동작 중간 편집점에 정지 구간을 강제하지 않는다.
+카메라 4요소, 컷 기능, 생성 길이, 소스 사용 구간, 최종 타임코드를 따로 기록한다.
+line_id마다 일본어 원문 / 한글 발음(근사) / 한국어 뜻 / 화자 / WAV / 시작·끝 / 이미지 ID / 클립 ID를 제공한다.
+한국어 검수본과 일본어 공개 최종본은 같은 타임라인에서 출력한다. 영상 생성 비용은 무료 조건이 검증된 요청만 허용한다.
+최종 파일 전체 검수, 컷 표, 자막, manifest, 파일 수·해시가 검증된 ZIP을 전달하고 완료 큐의 중복 재생성을 막는다.</pre></div></div></section></main><footer class="page-footer"><div class="wrap"><a href="index.html">전체 목차</a><a href="complete.html">한 페이지 통합판</a><a href="https://github.com/geben147-create/ai-video-production-guide/releases/latest">전체 ZIP 다운로드</a><a href="sources.html">출처·기록 범위</a></div></footer></body></html>

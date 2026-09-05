@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>AI 영상 문법 통합 지도 — EDO 적용 현황과 범용 제작 계약</title>
+  <style>
+    :root {
+      --ink: #11100e;
+      --ink-2: #1a1815;
+      --ink-3: #24211d;
+      --paper: #f1e8d6;
+      --paper-dim: #cfc3ae;
+      --line: rgba(241, 232, 214, .16);
+      --line-strong: rgba(241, 232, 214, .32);
+      --vermilion: #e0523c;
+      --vermilion-dark: #8f3025;
+      --matcha: #98a676;
+      --gold: #d3a84d;
+      --cobalt: #66839b;
+      --good: #7fb68f;
+      --partial: #d7a956;
+      --missing: #df6755;
+      --max: 1480px;
+      --serif: "Noto Serif KR", "Nanum Myeongjo", "Batang", Georgia, serif;
+      --sans: "Pretendard", "SUIT", "Malgun Gothic", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--paper);
+      background:
+        radial-gradient(circle at 78% 4%, rgba(224, 82, 60, .14), transparent 26rem),
+        linear-gradient(180deg, #0d0c0b 0%, var(--ink) 48%, #0c0b0a 100%);
+      font-family: var(--sans);
+      line-height: 1.62;
+      letter-spacing: -.01em;
+    }
+
+    a { color: inherit; }
+    button { font: inherit; }
+    .wrap { width: min(var(--max), calc(100% - 40px)); margin-inline: auto; }
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--gold);
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+
+    .topline {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: rgba(17, 16, 14, .86);
+      backdrop-filter: blur(16px);
+    }
+    .topline .wrap {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { font-family: var(--serif); font-weight: 800; letter-spacing: .03em; }
+    .topnav { display: flex; flex-wrap: wrap; gap: 8px; }
+    .topnav a {
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: var(--paper-dim);
+      font-size: .76rem;
+      text-decoration: none;
+    }
+    .topnav a:hover, .topnav a:focus-visible { color: var(--paper); background: var(--ink-3); }
+
+    .hero {
+      position: relative;
+      min-height: 680px;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, transparent 49.88%, rgba(224,82,60,.64) 49.9%, rgba(224,82,60,.64) 50.1%, transparent 50.12%),
+        repeating-linear-gradient(90deg, transparent 0 9.7%, rgba(241,232,214,.035) 9.7% 9.8%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      padding: 112px 0 76px;
+    }
+    .hero h1 {
+      max-width: 850px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3.2rem, 7.1vw, 7.7rem);
+      line-height: .94;
+      letter-spacing: -.07em;
+      text-wrap: balance;
+    }
+    .hero h1 em { color: var(--vermilion); font-style: normal; }
+    .hero-copy { align-self: end; padding-bottom: 8px; }
+    .hero-copy .thesis {
+      margin: 0 0 28px;
+      font-family: var(--serif);
+      font-size: clamp(1.34rem, 2.2vw, 2rem);
+      line-height: 1.38;
+      text-wrap: balance;
+    }
+    .source-link {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 11px 15px;
+      border: 1px solid var(--line-strong);
+      border-radius: 2px;
+      color: var(--paper-dim);
+      font-size: .82rem;
+      text-decoration: none;
+    }
+    .source-link::before { content: "▶"; color: var(--vermilion); }
+    .source-link:hover { border-color: var(--vermilion); color: var(--paper); }
+
+    .verdict-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-bottom: 1px solid var(--line);
+    }
+    .verdict {
+      min-height: 152px;
+      padding: 28px clamp(20px, 3.6vw, 58px);
+      border-right: 1px solid var(--line);
+    }
+    .verdict:last-child { border-right: 0; }
+    .verdict strong { display: block; margin-bottom: 7px; font-family: var(--serif); font-size: 1.24rem; }
+    .verdict p { margin: 0; color: var(--paper-dim); font-size: .91rem; }
+    .verdict.good strong { color: var(--good); }
+    .verdict.partial strong { color: var(--partial); }
+    .verdict.missing strong { color: var(--missing); }
+
+    section { padding: 104px 0; border-bottom: 1px solid var(--line); }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(260px, .72fr) minmax(420px, 1.28fr);
+      gap: 72px;
+      margin-bottom: 48px;
+      align-items: end;
+    }
+    .section-head h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2.2rem, 4.5vw, 4.8rem);
+      line-height: 1.03;
+      letter-spacing: -.055em;
+    }
+    .section-head p { margin: 0; color: var(--paper-dim); font-size: 1.03rem; }
+
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+    .filter {
+      cursor: pointer;
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      padding: 8px 13px;
+      color: var(--paper-dim);
+      background: transparent;
+      font-size: .78rem;
+      font-weight: 800;
+    }
+    .filter:hover, .filter:focus-visible, .filter.active { color: var(--ink); background: var(--paper); border-color: var(--paper); }
+
+    .matrix-head, .matrix-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 118px minmax(0, 1fr);
+    }
+    .matrix-head {
+      position: sticky;
+      top: 58px;
+      z-index: 10;
+      background: rgba(17,16,14,.96);
+      border-block: 1px solid var(--line-strong);
+    }
+    .matrix-head > div {
+      padding: 15px 20px;
+      color: var(--paper-dim);
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .matrix-head .right { text-align: right; }
+    .matrix-head .center { text-align: center; color: var(--gold); }
+    .matrix-row { border-bottom: 1px solid var(--line); transition: opacity .2s ease; }
+    .matrix-row.hidden { display: none; }
+    .matrix-cell { padding: 26px 20px; min-width: 0; }
+    .matrix-cell h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 1.12rem; }
+    .matrix-cell p { margin: 0; color: var(--paper-dim); font-size: .9rem; }
+    .matrix-cell.right { text-align: right; }
+    .matrix-center {
+      position: relative;
+      display: grid;
+      place-items: center;
+      padding: 18px 6px;
+    }
+    .matrix-center::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      background: var(--line);
+    }
+    .status {
+      position: relative;
+      z-index: 1;
+      min-width: 86px;
+      padding: 6px 8px;
+      border: 1px solid currentColor;
+      background: var(--ink);
+      text-align: center;
+      font-size: .72rem;
+      font-weight: 900;
+      letter-spacing: .06em;
+    }
+    [data-status="applied"] .status { color: var(--good); }
+    [data-status="partial"] .status { color: var(--partial); }
+    [data-status="missing"] .status { color: var(--missing); }
+
+    .film-map {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      padding: 34px 0;
+    }
+    .film-map::before {
+      content: "";
+      position: absolute;
+      top: 50%; left: 3%; right: 3%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--cobalt), var(--gold), var(--vermilion));
+    }
+    .shot {
+      position: relative;
+      z-index: 1;
+      min-height: 270px;
+      padding: 18px;
+      border: 1px solid var(--line-strong);
+      background: var(--ink-2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 18px 35px rgba(0,0,0,.2);
+    }
+    .shot::before, .shot::after {
+      content: "";
+      position: absolute;
+      left: 12px; right: 12px;
+      height: 5px;
+      background: repeating-linear-gradient(90deg, var(--paper-dim) 0 7px, transparent 7px 15px);
+      opacity: .25;
+    }
+    .shot::before { top: 7px; }
+    .shot::after { bottom: 7px; }
+    .shot-no { color: var(--gold); font-size: .72rem; font-weight: 900; letter-spacing: .12em; }
+    .frame-icon {
+      min-height: 116px;
+      display: grid;
+      place-items: center;
+      margin: 20px 0 12px;
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(102,131,155,.12), transparent);
+      color: var(--paper-dim);
+      font-family: var(--serif);
+      font-size: 1.6rem;
+    }
+    .shot h3 { margin: 0 0 4px; font-family: var(--serif); font-size: 1.08rem; }
+    .shot p { margin: 0; color: var(--paper-dim); font-size: .82rem; line-height: 1.48; }
+
+    .grammar-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .grammar-card { min-height: 245px; padding: 30px; background: var(--ink-2); }
+    .grammar-card .num { color: var(--vermilion); font-family: var(--serif); font-size: 2rem; }
+    .grammar-card h3 { margin: 16px 0 8px; font-family: var(--serif); font-size: 1.32rem; }
+    .grammar-card p { margin: 0; color: var(--paper-dim); }
+    .grammar-card .micro { display: block; margin-top: 18px; color: var(--gold); font-size: .78rem; font-weight: 800; }
+
+    .narrative-flow {
+      display: grid;
+      grid-template-columns: 1fr 64px 1fr 64px 1fr;
+      align-items: stretch;
+    }
+    .beat {
+      padding: 34px;
+      border: 1px solid var(--line-strong);
+      background: var(--ink-2);
+    }
+    .beat .mode { color: var(--gold); font-size: .72rem; font-weight: 900; letter-spacing: .1em; }
+    .beat h3 { margin: 12px 0 8px; font-family: var(--serif); font-size: 1.42rem; }
+    .beat p { margin: 0; color: var(--paper-dim); font-size: .9rem; }
+    .arrow { display: grid; place-items: center; color: var(--vermilion); font-size: 1.7rem; }
+
+    .architecture { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .layer { position: relative; min-height: 330px; padding: 32px; border: 1px solid var(--line-strong); overflow: hidden; }
+    .layer::after {
+      content: attr(data-layer);
+      position: absolute;
+      right: -8px; bottom: -32px;
+      color: rgba(241,232,214,.035);
+      font-family: var(--serif);
+      font-size: 8rem;
+      font-weight: 900;
+    }
+    .layer.core { background: linear-gradient(145deg, rgba(102,131,155,.17), var(--ink-2) 58%); }
+    .layer.project { background: linear-gradient(145deg, rgba(211,168,77,.14), var(--ink-2) 58%); }
+    .layer.provider { background: linear-gradient(145deg, rgba(224,82,60,.14), var(--ink-2) 58%); }
+    .layer h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 1.5rem; }
+    .layer > p { margin: 0 0 22px; color: var(--paper-dim); }
+    .layer ul { margin: 0; padding-left: 18px; color: var(--paper-dim); font-size: .88rem; }
+    .layer li + li { margin-top: 8px; }
+
+    .priority-list { counter-reset: priority; border-top: 1px solid var(--line-strong); }
+    .priority {
+      counter-increment: priority;
+      display: grid;
+      grid-template-columns: 90px minmax(220px, .8fr) minmax(300px, 1.2fr) 150px;
+      gap: 24px;
+      align-items: center;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .priority::before { content: counter(priority, decimal-leading-zero); color: var(--vermilion); font-family: var(--serif); font-size: 1.5rem; }
+    .priority strong { font-family: var(--serif); }
+    .priority p { margin: 0; color: var(--paper-dim); font-size: .88rem; }
+    .owner { justify-self: end; padding: 5px 8px; border: 1px solid var(--line); color: var(--gold); font-size: .7rem; font-weight: 900; }
+
+    .prompt-panel { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; }
+    .prompt-guide { padding-right: 12px; }
+    .prompt-guide h3 { margin: 0 0 12px; font-family: var(--serif); font-size: 1.8rem; }
+    .prompt-guide p { color: var(--paper-dim); }
+    .prompt-box { position: relative; border: 1px solid var(--line-strong); background: #090807; }
+    pre {
+      margin: 0;
+      padding: 28px;
+      max-height: 650px;
+      overflow: auto;
+      color: #ded4c3;
+      font: 13px/1.72 Consolas, "Courier New", monospace;
+      white-space: pre-wrap;
+    }
+    .copy {
+      position: absolute;
+      top: 12px; right: 12px;
+      cursor: pointer;
+      padding: 7px 10px;
+      border: 1px solid var(--line-strong);
+      color: var(--paper);
+      background: var(--ink-3);
+      font-size: .74rem;
+      font-weight: 800;
+    }
+    .copy:hover, .copy:focus-visible { border-color: var(--vermilion); }
+
+    .qc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .check {
+      display: grid;
+      grid-template-columns: 25px 1fr;
+      gap: 12px;
+      align-items: start;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: var(--ink-2);
+      cursor: pointer;
+    }
+    .check input { width: 18px; height: 18px; accent-color: var(--vermilion); }
+    .check strong { display: block; font-family: var(--serif); font-size: .98rem; }
+    .check small { display: block; margin-top: 3px; color: var(--paper-dim); line-height: 1.45; }
+    .progress {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      color: var(--paper-dim);
+    }
+    .progress-bar { flex: 1; height: 4px; background: var(--line); }
+    .progress-fill { width: 0; height: 100%; background: var(--good); transition: width .2s ease; }
+
+    .redline {
+      margin-top: 56px;
+      padding: 26px 30px;
+      border-left: 5px solid var(--vermilion);
+      background: rgba(224,82,60,.09);
+    }
+    .redline strong { color: #ff9d8e; }
+    .redline p { margin: 8px 0 0; color: var(--paper-dim); }
+
+    footer { padding: 56px 0 72px; color: var(--paper-dim); font-size: .82rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 30px; align-items: end; }
+    footer strong { color: var(--paper); font-family: var(--serif); }
+
+    @media (max-width: 960px) {
+      .hero-grid, .section-head, .prompt-panel { grid-template-columns: 1fr; gap: 34px; }
+      .hero { min-height: 620px; }
+      .hero::before { background: repeating-linear-gradient(90deg, transparent 0 19.7%, rgba(241,232,214,.035) 19.7% 20%); }
+      .verdict-strip, .architecture { grid-template-columns: 1fr; }
+      .verdict { border-right: 0; border-bottom: 1px solid var(--line); }
+      .film-map { grid-template-columns: 1fr 1fr; }
+      .film-map::before { display: none; }
+      .narrative-flow { grid-template-columns: 1fr; gap: 10px; }
+      .arrow { transform: rotate(90deg); }
+      .priority { grid-template-columns: 54px 1fr; }
+      .priority p { grid-column: 2; }
+      .owner { grid-column: 2; justify-self: start; }
+    }
+
+    @media (max-width: 680px) {
+      .wrap { width: min(100% - 24px, var(--max)); }
+      .topline .wrap { align-items: flex-start; padding-block: 12px; }
+      .topnav { display: none; }
+      .hero { min-height: auto; }
+      .hero-grid { padding: 84px 0 58px; }
+      .hero h1 { font-size: clamp(3rem, 15vw, 5rem); }
+      section { padding: 72px 0; }
+      .matrix-head { display: none; }
+      .matrix-row { grid-template-columns: 1fr; padding: 22px 0; }
+      .matrix-cell, .matrix-cell.right { padding: 10px 2px; text-align: left; }
+      .matrix-center { min-height: 46px; place-items: start; }
+      .matrix-center::before { display: none; }
+      .film-map, .grammar-grid, .qc-grid { grid-template-columns: 1fr; }
+      .shot { min-height: 230px; }
+      .architecture { gap: 10px; }
+      footer .wrap { display: block; }
+    }
+
+    @media print {
+      :root { --ink: #fff; --ink-2: #fff; --ink-3: #fff; --paper: #111; --paper-dim: #444; --line: #ccc; --line-strong: #999; }
+      body { background: #fff; color: #111; }
+      .topline, .filters, .copy { display: none; }
+      .hero { min-height: auto; }
+      .hero-grid { padding: 40px 0; }
+      section { padding: 42px 0; break-inside: avoid; }
+      .matrix-head { position: static; }
+      .shot, .grammar-card, .beat, .layer, .check, .prompt-box { background: #fff; box-shadow: none; }
+      pre { color: #111; background: #fff; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+<style>
+body{font-size:16px;line-height:1.75}h1,h2,h3{word-break:keep-all;overflow-wrap:anywhere;line-height:1.2!important;letter-spacing:-.035em!important}p,li,td{overflow-wrap:anywhere}.section-title{max-width:none;font-size:clamp(2rem,4vw,3.6rem)}.section{padding:4rem 0}.section-head{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:2rem}.wrap{width:min(calc(100% - 3rem),1200px)}.site-top{background:#090f0d;border-bottom:1px solid var(--line);padding:1rem 0}.masthead{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}.masthead a{color:var(--mint);text-decoration:none}.page-nav{display:flex;flex-wrap:wrap;gap:.5rem;padding-top:1rem;overflow:visible}.page-nav a{border:1px solid #374740;font-size:.85rem}.page-nav a[aria-current=page]{background:var(--mint);color:#06110d}.page-title{padding:4rem 0 2rem}.page-title h1{font-size:clamp(2.5rem,6vw,5rem);margin:.7rem 0}.page-title p{color:var(--muted);font-size:1.15rem;max-width:65ch}.public-note{border-left:4px solid var(--heart);background:#161619;padding:1.2rem;margin:1rem 0;color:#dedee3}.public-note a{color:var(--mint)}.table-scroll{overflow:auto;border:1px solid var(--line);max-width:100%}table{border-collapse:collapse;width:100%;min-width:650px}th,td{vertical-align:top;text-align:left;padding:1rem;border-bottom:1px solid #344139;border-right:1px solid #344139}th{color:var(--mint);background:#111c17}td p{font-size:.9rem;color:var(--muted)}.method-list{padding-left:1.5rem}.method-list li{padding:.7rem .3rem;border-bottom:1px solid var(--line)}.directory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.topic-link{text-decoration:none;background:#101a15;border:1px solid #34483d;padding:1.5rem;display:flex;flex-direction:column}.topic-link:hover{border-color:var(--mint)}.topic-link span{font:700 .8rem var(--mono);color:var(--heart)}.topic-link h3{font-size:1.5rem;margin:.7rem 0}.topic-link p{color:var(--muted)}.topic-link b{margin-top:auto;color:var(--mint)}.page-footer{padding:2rem 0;border-top:1px solid var(--line)}.page-footer a{margin-right:1rem;color:var(--mint)}.schema code{white-space:pre-wrap}.topbar{position:static}.audit-side,.codebox,.camera-part,.acting-card,.layer{min-width:0}.hero h1{font-size:clamp(2.8rem,5vw,5rem);max-width:12ch}.camera-part b,.codebox{overflow-wrap:anywhere}.sizes .figure{max-width:100%}.copy{min-height:44px}.copy-status{display:block;color:var(--mint)}section[id]{scroll-margin-top:1rem}.archive-nav{padding:1rem;border-bottom:1px solid var(--line)}
+@media(max-width:800px){.section-head{grid-template-columns:1fr}.directory{grid-template-columns:1fr 1fr}.camera-contract{grid-template-columns:1fr 1fr}.cost-line{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.section-title{font-size:2.3rem}}
+@media(max-width:520px){.wrap{width:calc(100% - 2rem)}.directory{grid-template-columns:1fr}.page-title{padding-top:2rem}.section{padding:2.5rem 0}.page-nav a{font-size:.8rem}.camera-contract{grid-template-columns:1fr}.prompt-head{align-items:flex-start;flex-direction:column}.lens-groups{grid-template-columns:1fr}.rule-callout{grid-template-columns:1fr}.split-code{grid-template-columns:1fr}.hero h1{max-width:none}}
+@media print{.site-top,.page-footer,.copy{display:none}body{color:#111;background:white}a{color:#111}.public-note,.topic-link,th,td{color:#111;background:white}section{break-inside:auto}.section-head{display:block}}
+</style><script src="assets/app.js" defer></script></head>
+<body><div class="wrap archive-nav"><nav class="page-nav" aria-label="전체 페이지"><a  href="index.html">전체 안내</a><a  href="complete.html">전체 통합판</a><a  href="comparison.html">좌우 비교</a><a  href="characters.html">캐릭터·이미지</a><a  href="camera.html">카메라·프레이밍</a><a  href="continuity.html">컷·연속성</a><a  href="acting.html">대본·연기</a><a  href="audio.html">일본어·립싱크</a><a  href="editing.html">길이·자동 편집</a><a  href="automation.html">자동화·무료 조건</a><a  href="prompts.html">복사 지시문</a><a  href="qc.html">최종 검수</a><a  href="sources.html">출처·변경 기록</a><a href="archive-v1.html">V1 기록</a><a href="archive-v2.html">V2 기록</a></nav><aside class="public-note"><b>공개판 읽기 안내.</b> 이 페이지는 당시 작성한 비교표와 제작 방법을 보존한 기록입니다. “적용·완료·0크레딧” 표시는 당시 대화상의 보고이며 이번 공개 작업에서 원본 영상이나 계정 견적을 재검증한 결과가 아닙니다. 특히 MiniMax H3의 음성 입력 지원에 상충하는 기록이 있어 모델명만으로 립싱크를 보장하지 않습니다. <a href="audio.html">현재 작업에 적용할 음성·립싱크 확인 절차</a>를 함께 보세요.</aside></div>
+  <header class="topline">
+    <div class="wrap">
+      <div class="brand">CUT / CONTINUITY / PERFORMANCE</div>
+      <nav class="topnav" aria-label="페이지 목차">
+        <a href="#matrix">좌우 대조</a>
+        <a href="#shots">샷 흐름</a>
+        <a href="#acting">연기 구조</a>
+        <a href="#architecture">범용화 위치</a>
+        <a href="#prompt">복사 지시문</a>
+        <a href="#qc">QC</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">AI VIDEO DIRECTING CONTRACT · 2026.09.05</p>
+          <h1>좋은 엔진보다<br><em>좋은 컷</em>이 먼저다.</h1>
+        </div>
+        <div class="hero-copy">
+          <p class="thesis">EDO RAMEN에 이미 적용한 음성·립싱크 안전성 위에, 제공 영상의 샷 크기·공간·동작·시간 연결 문법을 얹는 범용 제작 지도.</p>
+          <a class="source-link" href="https://www.youtube.com/watch?v=_lVvPG789pc" target="_blank" rel="noreferrer">참고 영상 — AI 영상은 엔진이 문제가 아니다</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="verdict-strip" aria-label="핵심 판정">
+      <div class="verdict good"><strong>✅ 이미 강한 부분</strong><p>최종 TTS 우선, H3 오디오 참조 립싱크, 비화자 입 통제, 0크레딧 게이트, 최종 A/V 검증.</p></div>
+      <div class="verdict partial"><strong>△ 보완할 부분</strong><p>대사 역할, 연기 대상, 이미지 의미, 카메라 상태, 반응 컷, 장면별 리듬은 일부만 적용.</p></div>
+      <div class="verdict missing"><strong>❌ 가장 큰 빈칸</strong><p>샷 크기 변주, OTS 공간 앵커, 이동 인서트, 액션 중간 컷, 검증된 프레임 체인.</p></div>
+    </div>
+
+    <section id="matrix">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">LEFT / RIGHT AUDIT</p><h2>현재와 다음을<br>한 컷에 놓기</h2></div>
+          <p>왼쪽은 실제 EDO RAMEN 제작에 적용된 상태입니다. 오른쪽은 사용자가 제공한 영상에서 추출한 “생성 컷의 나열”을 “이어지는 영화 장면”으로 바꾸는 규칙입니다.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="적용 상태 필터">
+          <button class="filter active" data-filter="all">전체</button>
+          <button class="filter" data-filter="applied">✅ 적용</button>
+          <button class="filter" data-filter="partial">△ 부분 적용</button>
+          <button class="filter" data-filter="missing">❌ 미적용</button>
+        </div>
+
+        <div class="matrix-head" aria-hidden="true">
+          <div>왼쪽 · 기존 EDO 적용</div><div class="center">판정</div><div class="right">오른쪽 · 새로 채택할 영상 문법</div>
+        </div>
+
+        <div class="matrix-row" data-status="applied">
+          <div class="matrix-cell"><h3>최종 음성을 먼저 확정</h3><p>VOICEVOX 일본어 WAV를 마스터 클록으로 사용하고 장면을 실제 발화 길이에 배치했습니다.</p></div>
+          <div class="matrix-center"><span class="status">✅ 유지</span></div>
+          <div class="matrix-cell right"><h3>소리와 장면 목적을 함께 설계</h3><p>대사가 공간·행동을 연결하는 장치가 되도록 발화 전 행동과 발화 후 결과를 샷 계획에 기록합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="applied">
+          <div class="matrix-cell"><h3>실제 오디오 참조 립싱크</h3><p>화면 속 발화자는 MiniMax H3 ref2video에 이미지와 동일 WAV를 함께 넣어 생성했습니다.</p></div>
+          <div class="matrix-center"><span class="status">✅ 유지</span></div>
+          <div class="matrix-cell right"><h3>립싱크와 연기를 따로 평가</h3><p>입이 맞아도 시선·표정·몸의 목적이 없으면 실패입니다. “말하는 얼굴”과 “좋은 연기”를 분리 채점합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="applied">
+          <div class="matrix-cell"><h3>보이는 입과 보이스오버 분리</h3><p>62개 실제 발화 컷과 47개 얼굴 없는 내레이션 구간을 분리했습니다.</p></div>
+          <div class="matrix-center"><span class="status">✅ 유지</span></div>
+          <div class="matrix-cell right"><h3>반응이 중요하면 듣는 얼굴을 보여준다</h3><p>대사의 입보다 상대의 반응이 중요할 때는 OTS·반응 컷을 쓰고, 화자는 화면 밖 음성으로 공간을 유지합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>장면 이미지와 대사를 연결</h3><p>64개 장면 이미지가 109개 대사와 연결되지만, 문장의 기능보다 에셋 번호 중심으로 배치된 구간이 있습니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 확장</span></div>
+          <div class="matrix-cell right"><h3>샷마다 이야기 기능을 부여</h3><p>등장·마중·이동·발견·반응·인서트·결과 중 하나를 지정합니다. 기능 없는 예쁜 컷은 제거합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>샷 크기 흐름 계약 없음</h3><p>연속 장면에서도 비슷한 인물 크기와 정면 구도가 반복될 수 있습니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>와이드 → OTS → 미디엄 → 인서트 → 반응</h3><p>직전 샷과 같은 크기를 반복하지 않습니다. 같은 크기라면 시점·전경·축을 바꿔 리듬을 만듭니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>배경 시트가 구도에 끼치는 영향 미관리</h3><p>정면 배경 시트를 넣으면 모델이 그 구도를 그대로 영상 카메라로 채택할 수 있습니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>높고 비스듬한 공간 마스터</h3><p>장소 시트는 평면도처럼 높은 3/4 또는 측면 CCTV 시점으로 준비해 출입구·동선·인물 위치를 읽게 합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>캐릭터·소품 정체성 잠금</h3><p>캐릭터 시트와 소품 시트는 있지만 컷마다 좌우 위치·거리·몸 방향의 공간 잠금은 약합니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 확장</span></div>
+          <div class="matrix-cell right"><h3>블로킹과 화면 방향까지 잠금</h3><p>누가 문 쪽인지, 누가 카운터 안쪽인지, 어느 손에 무엇을 들었는지, 어느 방향으로 이동하는지 state에 저장합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>OTS 공간 앵커가 계획에 없음</h3><p>두 인물이 등장해도 각자 독립 정면 컷으로 분리되어 같은 공간인지 약하게 느껴질 수 있습니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>전경 어깨·실루엣으로 공간을 연결</h3><p>아들 뒤에서 엄마를 보는 식의 OTS로 직전 인물을 프레임에 남겨 시공간 공유와 시선 관계를 증명합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>이동 시간이 화면에서 점프</h3><p>한 컷에서는 멀리 있던 인물이 다음 컷에서 갑자기 가까워지는 문제를 자동 차단하지 못합니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>인서트로 시간과 거리를 메운다</h3><p>지나치는 몸, 이동하는 시선, 걷는 발, 손이 소품에 닿는 순간을 삽입해 보이지 않는 이동 시간을 납득시킵니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>행동이 컷마다 다시 시작</h3><p>걷기·들기·돌아서기가 컷 경계에서 멈췄다가 재출발하는 느낌이 날 수 있습니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>동작 중간에서 자르고 다음 컷에서 마무리</h3><p>발을 내딛는 순간, 선물을 들어 올리는 순간처럼 방향이 분명한 중간 동작에서 컷을 넘깁니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>실제 마지막 프레임 규칙은 이후 추가</h3><p>전역 규칙에는 있지만 기존 EDO 62개 립싱크 컷 대부분은 독립적으로 생성됐습니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 다음부터</span></div>
+          <div class="matrix-cell right"><h3>검증된 END HOLD → 다음 시작 프레임</h3><p>마지막 안정 구간에서 눈·손·입·소품을 검사한 프레임을 다음 CONTINUE 컷의 실제 입력으로 사용합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>오프스크린 소리의 공간 연출 미약</h3><p>화면 밖 발소리·문소리·도구 소리로 다음 행동을 예고하는 계약이 없습니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>소리가 다음 인물을 먼저 등장시킨다</h3><p>발소리, 그릇 놓는 소리, 노렌 젖히는 소리로 화면 밖 행동을 먼저 알려 컷 전환을 자연스럽게 만듭니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>시청자 설명과 극중 대사의 기본 분리</h3><p>발화자·내레이션은 구분했지만 설명자가 언제 렌즈를 보고 언제 극중 행동으로 복귀하는지는 약합니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 확장</span></div>
+          <div class="matrix-cell right"><h3>PRESENTER / EPISODE / BRIDGE / MONTAGE</h3><p>시청자 설명, 인물 대화, 행동 중 짧은 설명, 화면이 바뀌는 음성 몽타주를 서로 다른 연기 계약으로 분리합니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="missing">
+          <div class="matrix-cell"><h3>정적인 혼잣말처럼 보이는 구간</h3><p>립싱크는 맞아도 인물이 서서 말만 하면 행동 목적과 시청자 관계가 약합니다.</p></div>
+          <div class="matrix-center"><span class="status">❌ 추가</span></div>
+          <div class="matrix-cell right"><h3>행동 → 시청자 설명 → 행동 복귀</h3><p>빈 가게를 살핀 뒤 렌즈에 “그래서 배달을 시작했습니다”라고 말하고 즉시 포장 행동으로 돌아갑니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>EDO 시대·캐릭터 스타일 잠금</h3><p>시대와 의상은 유지하지만 음식 광고의 재질·광원·증기·그릇 반사까지 한 프로필로 고정하지 않았습니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 어댑터</span></div>
+          <div class="matrix-cell right"><h3>PREMIUM_JAPANESE_FOOD</h3><p>국물 깊이, 면 질감, 증기, 옻칠 반사, 따뜻한 방향광을 EDO 전용 어댑터로 사용하고 범용 코어에는 넣지 않습니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="applied">
+          <div class="matrix-cell"><h3>무료 전용 비용 게이트</h3><p>계정·모델·정확한 입력 견적과 완료 credit=0을 확인했습니다.</p></div>
+          <div class="matrix-center"><span class="status">✅ 유지</span></div>
+          <div class="matrix-cell right"><h3>비싼 엔진보다 연출 계약 우선</h3><p>샷 설계가 없는 상태에서 모델만 올리지 않습니다. 동일한 무료 모델에서도 상세 연출 지시가 품질 차이를 만듭니다.</p></div>
+        </div>
+        <div class="matrix-row" data-status="partial">
+          <div class="matrix-cell"><h3>A/V·파일 QC 중심</h3><p>해상도·길이·오디오·자막·립싱크를 검증했지만 영화 문법 QC는 제한적입니다.</p></div>
+          <div class="matrix-center"><span class="status">△ 확장</span></div>
+          <div class="matrix-cell right"><h3>연출 QC를 독립 게이트로 추가</h3><p>샷 크기 반복, 위치 점프, 행동 재시작, 공간 앵커, 화면 방향, 반응 우선순위를 별도로 실패 판정합니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shots">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">SHOT SIZE RHYTHM</p><h2>다섯 장면이<br>한 문장이 된다</h2></div>
+          <p>샷이 많아서 좋아지는 것이 아니라, 각 샷이 앞뒤 관계를 증명할 때 좋아집니다. 아래 흐름은 같은 장면을 반복하지 않고 정보의 초점을 이동시키는 기본 골격입니다.</p>
+        </div>
+        <div class="film-map" aria-label="샷 크기 흐름">
+          <article class="shot"><span class="shot-no">SHOT 01 · WIDE</span><div class="frame-icon">가게 + 인물</div><div><h3>공간을 먼저 준다</h3><p>출입구, 카운터, 인물 간 거리를 한 번에 설명.</p></div></article>
+          <article class="shot"><span class="shot-no">SHOT 02 · OTS</span><div class="frame-icon">어깨 / 상대</div><div><h3>관계를 고정한다</h3><p>직전 인물을 전경에 남겨 같은 공간임을 증명.</p></div></article>
+          <article class="shot"><span class="shot-no">SHOT 03 · MEDIUM</span><div class="frame-icon">몸 + 행동</div><div><h3>행동을 이어 간다</h3><p>마중, 이동, 포장처럼 목적 있는 동작을 진행.</p></div></article>
+          <article class="shot"><span class="shot-no">SHOT 04 · INSERT</span><div class="frame-icon">손 + 소품</div><div><h3>시간을 메운다</h3><p>이동 점프를 손·발·시선·물건으로 자연스럽게 연결.</p></div></article>
+          <article class="shot"><span class="shot-no">SHOT 05 · REACTION</span><div class="frame-icon">표정</div><div><h3>결과를 보여준다</h3><p>말한 사람보다 들은 사람의 반응이 중요할 수 있음.</p></div></article>
+        </div>
+
+        <div class="grammar-grid">
+          <article class="grammar-card"><span class="num">A</span><h3>동작의 연속성</h3><p>앞 컷에서 시작한 동작을 다음 컷에서 마무리합니다. 완전히 멈춘 포즈끼리 잇는 것이 아니라, 방향과 속도가 살아 있는 중간 동작을 연결합니다.</p><span class="micro">CUT ON ACTION</span></article>
+          <article class="grammar-card"><span class="num">B</span><h3>시간의 연속성</h3><p>멀리 있던 사람이 갑자기 가까워지지 않게 이동을 암시하는 인서트와 오프스크린 소리를 배치합니다.</p><span class="micro">BRIDGE THE GAP</span></article>
+          <article class="grammar-card"><span class="num">C</span><h3>공간의 연속성</h3><p>OTS, 전경 실루엣, 시선 방향, 출입구와 카운터 위치로 인물들이 같은 공간을 공유한다는 증거를 남깁니다.</p><span class="micro">SPATIAL ANCHOR</span></article>
+          <article class="grammar-card"><span class="num">D</span><h3>정보의 연속성</h3><p>와이드에서 상황, 미디엄에서 행동, 인서트에서 단서, 반응 컷에서 의미를 전달합니다. 같은 정보를 반복하지 않습니다.</p><span class="micro">INFORMATION PROGRESSION</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="acting">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">NARRATIVE PERFORMANCE</p><h2>혼잣말이 아닌<br>영화형 진행자</h2></div>
+          <p>시청자에게 말하는 것과 극중 인물에게 말하는 것을 섞지 않습니다. 가장 자연스러운 형태는 행동 속에 설명을 잠깐 끼우고 다시 사건으로 돌아가는 구조입니다.</p>
+        </div>
+        <div class="narrative-flow">
+          <article class="beat"><span class="mode">IN_WORLD_EPISODE</span><h3>극중 행동</h3><p>오린이 빈 가게와 남은 그릇을 확인한다. 시선은 카메라가 아니라 공간과 손에 둔다.</p></article>
+          <div class="arrow" aria-hidden="true">→</div>
+          <article class="beat"><span class="mode">PRESENTER_ADDRESS</span><h3>짧은 시청자 설명</h3><p>작업을 멈추지 않은 채 렌즈를 잠깐 보고 “손님이 오지 않아 배달을 시작했습니다”라고 명확히 말한다.</p></article>
+          <div class="arrow" aria-hidden="true">→</div>
+          <article class="beat"><span class="mode">VOICE_LED_MONTAGE</span><h3>사건으로 복귀</h3><p>배달함을 묶는 손, 골목을 달리는 사람, 주문표, 손님 반응으로 화면이 바뀌고 설명 음성은 이어진다.</p></article>
+        </div>
+        <div class="redline"><strong>🔴 모든 대사를 카메라에 말하게 하지 않습니다.</strong><p>전략·변화·결과를 설명할 때만 렌즈를 봅니다. 인물 대화, 실패의 감정 저점, 고백, 반응은 상대·공간·행동을 봐야 자연스럽습니다.</p></div>
+      </div>
+    </section>
+
+    <section id="architecture">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">WHERE THE RULES BELONG</p><h2>한곳에 다 넣지<br>않는 범용 구조</h2></div>
+          <p>사용자의 판단이 맞습니다. 이 규칙을 특정 영상 모델 프로그램에 통째로 박으면 다른 장르와 모델을 오염시킵니다. 아래 세 층으로 분리해야 재사용할 수 있습니다.</p>
+        </div>
+        <div class="architecture">
+          <article class="layer core" data-layer="1"><h3>1. 범용 연출 코어</h3><p>모델과 장르가 바뀌어도 유지되는 영상 문법.</p><ul><li>narrative_mode와 addressee</li><li>shot_size와 spatial_anchor</li><li>action_phase와 cut_on_action</li><li>transition_type 5종</li><li>state_out → state_in</li><li>연출 QC와 실패 이유</li></ul></article>
+          <article class="layer project" data-layer="2"><h3>2. 프로젝트 어댑터</h3><p>EDO RAMEN처럼 작품마다 달라지는 미술·연기 규칙.</p><ul><li>캐릭터·의상·시대 고증</li><li>PREMIUM_JAPANESE_FOOD</li><li>라멘, 그릇, 노렌, 거리 재질</li><li>작품별 금지 색감과 소품</li><li>화자별 연기 에너지</li><li>장소 블로킹 마스터</li></ul></article>
+          <article class="layer provider" data-layer="3"><h3>3. 생성 모델 어댑터</h3><p>Pollo·MiniMax·Kling 등 실제 호출에만 필요한 설정.</p><ul><li>image / imageTail / refs</li><li>audio reference 지원 여부</li><li>duration·resolution·aspect</li><li>무료 견적과 계정 게이트</li><li>모델별 프롬프트 렌더링</li><li>task·credit·download 증거</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="priority">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">ADOPTION ORDER</p><h2>앞으로 적용할<br>우선순위</h2></div>
+          <p>효과가 큰 순서입니다. 비싼 모델보다 먼저 대본과 샷 설계를 고칩니다. 그래야 재생성 횟수와 수동 편집 시간이 함께 줄어듭니다.</p>
+        </div>
+        <div class="priority-list">
+          <div class="priority"><strong>샷 크기·시점 흐름</strong><p>연속된 두 컷의 인물 크기와 카메라 위치가 같지 않도록 shot_size_sequence를 먼저 설계.</p><span class="owner">범용 코어</span></div>
+          <div class="priority"><strong>공간·블로킹 마스터</strong><p>높은 3/4 장소 시트에서 출입구·카운터·인물 위치·이동 방향을 잠금.</p><span class="owner">프로젝트</span></div>
+          <div class="priority"><strong>액션 연결·인서트</strong><p>컷 전후 action_phase와 이동을 메울 insert 또는 offscreen sound를 필수 지정.</p><span class="owner">범용 코어</span></div>
+          <div class="priority"><strong>연기 모드 분리</strong><p>PRESENTER_ADDRESS, IN_WORLD_EPISODE, BRIDGED_EPISODE, VOICE_LED_MONTAGE를 대본 단계에서 선택.</p><span class="owner">범용 코어</span></div>
+          <div class="priority"><strong>검증된 프레임 체인</strong><p>CONTINUE에서만 END HOLD의 검증 프레임과 상태를 다음 컷 입력으로 전달.</p><span class="owner">생성 어댑터</span></div>
+          <div class="priority"><strong>연출 QC</strong><p>립싱크와 별도로 크기 반복·위치 점프·행동 재시작·공간 앵커·반응 우선순위를 검사.</p><span class="owner">범용 코어</span></div>
+          <div class="priority"><strong>장르 스타일 프로필</strong><p>음식·화장품·다큐의 재질과 색감을 서로 다른 프로젝트 어댑터로 분리.</p><span class="owner">프로젝트</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prompt">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">COPYABLE CONTRACT</p><h2>다른 세션에<br>그대로 전달</h2></div>
+          <p>이 지시문은 특정 모델을 강제하지 않습니다. 먼저 연출 계획을 만들고, 그다음 프로젝트와 제공자 어댑터가 실제 프롬프트로 번역하게 합니다.</p>
+        </div>
+        <div class="prompt-panel">
+          <div class="prompt-guide"><h3>범용 영상 문법 적용 지시문</h3><p>이미 완료된 생성물을 무조건 폐기하지 않고, 먼저 샷 단위로 ACCEPT / EDIT / REGENERATE를 판정합니다. 가장 큰 차이는 “무슨 모델을 쓰는가”가 아니라 “앞 컷의 어떤 정보를 다음 컷이 이어받는가”입니다.</p><div class="redline"><strong>🔴 금지</strong><p>모든 컷 정면 구도, 같은 샷 크기 반복, 위치 순간이동, 행동 재시작, 모든 대사의 카메라 응시, 불연속을 디졸브로 숨기기.</p></div></div>
+          <div class="prompt-box">
+            <button class="copy" type="button" data-copy="universalPrompt">지시문 복사</button>
+            <pre id="universalPrompt">현재 영상의 모델을 먼저 바꾸지 말고 영상 문법부터 재설계하라.
+
+1. 모든 대사를 PRESENTER_ADDRESS / IN_WORLD_EPISODE / BRIDGED_EPISODE / VOICE_LED_MONTAGE / NO_DIALOGUE 중 하나로 분류한다.
+2. 각 장면에 STORY_FUNCTION, SHOT_SIZE, CAMERA_POSITION, SPATIAL_ANCHOR, SCREEN_DIRECTION을 기록한다.
+3. 같은 장면의 연속 컷은 같은 샷 크기를 반복하지 않는다. WIDE → OTS → MEDIUM → INSERT → REACTION 흐름 중 의미에 맞는 변주를 사용한다.
+4. 장소 기준 이미지는 정면 미장센만 만들지 말고 높은 3/4 또는 측면 공간 마스터를 함께 준비한다. 출입구·카운터·인물 위치·이동 경로를 명확히 표시한다.
+5. 각 영상 프롬프트는 PREVIOUS_STATE → START_STATE → SINGLE_ACTING_BEAT → SPEECH → PHYSICAL_ACTION → CAMERA → END_STATE → CONTINUITY_HANDOFF → NEGATIVE 순서로 작성한다.
+6. 걷기·들기·돌기 같은 행동은 앞 컷에서 시작하고 다음 컷에서 마무리하는 CUT_ON_ACTION으로 설계한다.
+7. 인물이 공간을 이동하면 지나치는 몸, 이동하는 시선, 손·발, 소품, 오프스크린 소리 중 하나로 시간과 거리를 연결한다.
+8. 두 사람이 같은 공간에 있음을 보여야 하면 OTS, 전경 실루엣, 시선 매치 중 하나를 공간 앵커로 사용한다.
+9. CONTINUE 컷만 이전 영상의 검증된 END HOLD 프레임을 다음 시작 이미지로 사용한다. LOCATION_CUT, TIME_JUMP, REACTION_CUT, MATCH_CUT에는 독립 시작 이미지를 허용한다.
+10. 화면에 보이는 인물이 말하면 최종 TTS 오디오 참조 립싱크를 사용한다. 반응이 핵심이면 듣는 인물의 얼굴을 보여주고 화자는 화면 밖에 둔다.
+11. 시청자 설명은 속삭이는 혼잣말이 아니라 상황→선택→결과를 명확히 말한다. 설명 후에는 극중 행동으로 복귀한다.
+12. 립싱크 QC와 연출 QC를 분리한다. 입이 맞더라도 시선·표정·행동 목적·공간·시간 연결이 틀리면 실패다.
+13. 기존 컷을 ACCEPT / EDIT_ONLY / REGENERATE로 분류하고 실패 컷만 다시 생성한다.
+14. 장르 색감과 재질은 PROJECT_STYLE_ADAPTER에 두고, Pollo/MiniMax/Kling 필드와 비용은 PROVIDER_ADAPTER에 둔다. 범용 연출 코어에 특정 모델과 라멘 스타일을 하드코딩하지 않는다.
+
+결과는 장면별로 다음을 보고하라:
+scene_id / narrative_mode / story_function / shot_size / spatial_anchor / action_phase / transition_type / previous_state_out / current_state_in / audio_lipsync / QC 판정 / 재생성 여부.</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="qc">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">DIRECTING QC</p><h2>최종 합격은<br>영상 문법까지</h2></div>
+          <p>체크 상태는 이 브라우저에 저장됩니다. 다음 canary를 볼 때 입 모양만 확인하지 말고 아래 항목을 함께 보십시오.</p>
+        </div>
+        <div class="progress"><span id="progressText">0 / 12 완료</span><div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div></div>
+        <div class="qc-grid" id="qcGrid">
+          <label class="check"><input type="checkbox" data-qc="shot-size"><span><strong>샷 크기 변주</strong><small>직전 컷과 같은 인물 크기·정면 구도가 반복되지 않는다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="space"><span><strong>공간 앵커</strong><small>OTS·전경·시선·배경 구조 중 하나가 같은 공간임을 증명한다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="blocking"><span><strong>인물 블로킹</strong><small>좌우 위치·거리·몸 방향·출입구 관계가 갑자기 바뀌지 않는다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="action"><span><strong>액션 연결</strong><small>동작이 컷마다 다시 시작하지 않고 방향과 속도가 이어진다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="time"><span><strong>시간 연결</strong><small>이동 점프는 인서트나 소리로 충분히 메워졌다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="reaction"><span><strong>반응 우선순위</strong><small>말하는 입보다 중요한 표정·단서가 있으면 그것을 보여준다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="address"><span><strong>발화 대상</strong><small>시청자·상대 인물·행동 대상 중 누구에게 말하는지 분명하다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="performance"><span><strong>연기 목적</strong><small>시선·표정·몸동작이 대사의 상황→선택→결과와 맞는다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="lip"><span><strong>립싱크</strong><small>화면에 보이는 발화자의 입만 최종 음성과 맞게 움직인다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="handoff"><span><strong>프레임 인계</strong><small>CONTINUE 컷의 검증된 종료 프레임과 다음 시작 상태가 일치한다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="image"><span><strong>이미지·재질 품질</strong><small>손·얼굴·소품·음식 질감·조명·시대 오류가 없다.</small></span></label>
+          <label class="check"><input type="checkbox" data-qc="decode"><span><strong>최종 파일 검증</strong><small>전체 MP4 decode, A/V sync, 해상도, 프레임률, 오디오를 확인했다.</small></span></label>
+        </div>
+        <div class="redline"><strong>최종 판정</strong><p>기존 EDO 제작의 강점은 음성·립싱크·비용 안전성입니다. 다음 버전의 체감 품질을 가장 크게 올릴 부분은 모델 교체가 아니라 샷 크기 흐름, 공간 앵커, 이동 인서트, 액션 중간 컷, 연기 대상 설계입니다.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><div><strong>AI 영상 문법 통합 지도</strong><br>기존 EDO 적용 상태 × 사용자 제공 영상 연출 원칙</div><div>로컬 독립 HTML · 외부 생성/업로드/크레딧 사용 없음</div></div>
+  </footer>
+
+  
+</body>
+</html>

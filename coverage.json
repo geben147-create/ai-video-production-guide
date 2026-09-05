@@ -1,0 +1,153 @@
+{
+  "version": "public-20260905",
+  "pages": 15,
+  "originalComparisons": 17,
+  "heartAdditions": 13,
+  "cameraTechniques": 20,
+  "staticShot": 1,
+  "framingSizes": 9,
+  "qcChecklist": 21,
+  "topics": [
+    {
+      "page": "comparison.html",
+      "title": "좌우 비교"
+    },
+    {
+      "page": "characters.html",
+      "title": "캐릭터·이미지"
+    },
+    {
+      "page": "camera.html",
+      "title": "카메라·프레이밍"
+    },
+    {
+      "page": "continuity.html",
+      "title": "컷·연속성"
+    },
+    {
+      "page": "acting.html",
+      "title": "대본·연기"
+    },
+    {
+      "page": "audio.html",
+      "title": "일본어·립싱크"
+    },
+    {
+      "page": "editing.html",
+      "title": "길이·자동 편집"
+    },
+    {
+      "page": "automation.html",
+      "title": "자동화·무료 조건"
+    },
+    {
+      "page": "prompts.html",
+      "title": "복사 지시문"
+    },
+    {
+      "page": "qc.html",
+      "title": "최종 검수"
+    },
+    {
+      "page": "sources.html",
+      "title": "출처·변경 기록"
+    }
+  ],
+  "files": [
+    {
+      "file": "assets/style.css",
+      "bytes": 18378,
+      "sha256": "5a31e6c68b04a66be7b56a75ba39e62fb2cee0fab7a5a613c8efa3e6e3d6925f"
+    },
+    {
+      "file": "assets/app.js",
+      "bytes": 1960,
+      "sha256": "d9c066b03fc33ffab3cd64d69169ffcde04fb1c2a3b5935f0d142e6cd4ccf21d"
+    },
+    {
+      "file": "index.html",
+      "bytes": 5306,
+      "sha256": "33171a47bc2d4e27ab537e87ba231115a7987ac3a554d27d61debbf3cdc7f9c2"
+    },
+    {
+      "file": "complete.html",
+      "bytes": 69118,
+      "sha256": "732c9cff2f8f36ddaf48fcc061acecedfae1f8cc5ca6fdde9e36d5696aaf94cf"
+    },
+    {
+      "file": "comparison.html",
+      "bytes": 19475,
+      "sha256": "d58ff7db9adebb7ed2910b2b1948fcf64f2a623472d71194169a7a21879e6156"
+    },
+    {
+      "file": "characters.html",
+      "bytes": 5344,
+      "sha256": "2c14c51933d9d1b46c78be8c3753565cebf789229e3c8edd84c1ffa8ca3d46fa"
+    },
+    {
+      "file": "camera.html",
+      "bytes": 9539,
+      "sha256": "ba02a0d97477cdf8fe88c8e3bc74e2b4de874d59ff5c93b6966d145a08329fc0"
+    },
+    {
+      "file": "continuity.html",
+      "bytes": 6385,
+      "sha256": "e6ce68e5c5e5a3f6e6b3351fadf042874bb672ce3de95b4187038cc32c315d00"
+    },
+    {
+      "file": "acting.html",
+      "bytes": 4887,
+      "sha256": "451a35b6b322fb2714e7b8464fd2ac9b346d3a9f93acd77ec4e3f7edd30f91ad"
+    },
+    {
+      "file": "audio.html",
+      "bytes": 6752,
+      "sha256": "55fcb52879c29b28c5ef157b460d09918653ebba91a84bd8ca29c5f5f0f3f029"
+    },
+    {
+      "file": "editing.html",
+      "bytes": 5893,
+      "sha256": "26a1950a53124d9c9fc10d890a44744953b67b3d2436bbe2ba1e64178883cadc"
+    },
+    {
+      "file": "automation.html",
+      "bytes": 6705,
+      "sha256": "bd8236d4f579065750d102dc26828953b6b6364c940719fbcb5d1df9035dfa7c"
+    },
+    {
+      "file": "prompts.html",
+      "bytes": 9176,
+      "sha256": "9d268f663554008e00f0b093532f07ff9d9e45eb77ae2c0f6b01a11a0a018020"
+    },
+    {
+      "file": "qc.html",
+      "bytes": 8493,
+      "sha256": "5a43533a07c86042415d69fbcfe281db4d9b3ed8f34777ced93f5a04793613ad"
+    },
+    {
+      "file": "sources.html",
+      "bytes": 5013,
+      "sha256": "2f4586c03e65c4753e173704aee4379f65d1dbad94f7727b6f3675b039574ac1"
+    },
+    {
+      "file": "archive-v1.html",
+      "bytes": 51183,
+      "sha256": "a96066f30f528d11166d7622cb2fbb018333258452955e2dba0c2526e16e8c0b"
+    },
+    {
+      "file": "archive-v2.html",
+      "bytes": 57040,
+      "sha256": "8cc12e0a2de1c953690227469840d0ac05f24c04d14fce58687d036aa7068829"
+    },
+    {
+      "file": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2482,
+      "sha256": "4371a1eb03a7934aed3368016b4d6161758e19f326123e069cf67e3d9f11163d"
+    }
+  ]
+}
