@@ -1,12 +1,289 @@
 {
-  "version": "public-20260905",
-  "pages": 15,
+  "version": "public-20260905-tutorials",
+  "pages": 21,
   "originalComparisons": 17,
-  "heartAdditions": 13,
+  "heartAdditions": 18,
+  "originalHeartAdditions": 13,
   "cameraTechniques": 20,
   "staticShot": 1,
   "framingSizes": 9,
   "qcChecklist": 21,
+  "tutorialPromptCount": 16,
+  "tutorialSources": [
+    {
+      "id": "u48LDpySq8A",
+      "page": "voice-direction.html",
+      "title": "자연스러운 성우음성 AI로 이렇게 만듭니다 _ 시댄스 클링",
+      "channel": "영상독학",
+      "duration": "14:03",
+      "published": "2026-07-10",
+      "heartNumber": 14,
+      "sourceBasis": "Full public Korean automatic captions; summaries and original adaptations; no frame-by-frame visual review",
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "실험 목적"
+        },
+        {
+          "seconds": 70,
+          "title": "캐스팅 이미지"
+        },
+        {
+          "seconds": 134,
+          "title": "톤 변주"
+        },
+        {
+          "seconds": 201,
+          "title": "실패 선별"
+        },
+        {
+          "seconds": 279,
+          "title": "다른 캐릭터"
+        },
+        {
+          "seconds": 380,
+          "title": "모델 비교 실험"
+        },
+        {
+          "seconds": 480,
+          "title": "문장 끝 검수"
+        },
+        {
+          "seconds": 556,
+          "title": "정리와 비용"
+        },
+        {
+          "seconds": 718,
+          "title": "음성만 활용"
+        }
+      ],
+      "prompts": 3
+    },
+    {
+      "id": "Q8w4snv7RS4",
+      "page": "image-agents.html",
+      "title": "매그니픽 에이전트! 손 떼고 있는데 알아서 다함;;",
+      "channel": "영상독학",
+      "duration": "17:14",
+      "published": "2026-07-14",
+      "heartNumber": 15,
+      "sourceBasis": "Full public Korean automatic captions; summaries and original adaptations; no frame-by-frame visual review",
+      "chapters": [
+        {
+          "seconds": 57,
+          "title": "프로젝트·입력 설정"
+        },
+        {
+          "seconds": 134,
+          "title": "자율 실행 실험"
+        },
+        {
+          "seconds": 194,
+          "title": "별도 자산 변주"
+        },
+        {
+          "seconds": 310,
+          "title": "다중 참조·부분 교체"
+        },
+        {
+          "seconds": 401,
+          "title": "스토리 컷 확장"
+        },
+        {
+          "seconds": 550,
+          "title": "스토리·구도·연령"
+        },
+        {
+          "seconds": 703,
+          "title": "단순 연결의 한계"
+        },
+        {
+          "seconds": 783,
+          "title": "선택 상태 오류"
+        },
+        {
+          "seconds": 840,
+          "title": "역할 정리"
+        }
+      ],
+      "prompts": 3
+    },
+    {
+      "id": "KrkpE_oNlcw",
+      "page": "advertising.html",
+      "title": "AI광고영상 1시간 강의 무료로 풉니다",
+      "channel": "영상독학",
+      "duration": "1:00:02",
+      "published": "2026-09-04",
+      "heartNumber": 16,
+      "sourceBasis": "Full public Korean automatic captions; summaries and original adaptations; no frame-by-frame visual review",
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "관점과 사례"
+        },
+        {
+          "seconds": 138,
+          "title": "표현 전략"
+        },
+        {
+          "seconds": 556,
+          "title": "도구 설명 시작"
+        },
+        {
+          "seconds": 726,
+          "title": "레퍼런스·질감"
+        },
+        {
+          "seconds": 838,
+          "title": "이미지 프롬프트"
+        },
+        {
+          "seconds": 1121,
+          "title": "키 이미지와 수정 분리"
+        },
+        {
+          "seconds": 1269,
+          "title": "열화·일관성"
+        },
+        {
+          "seconds": 1630,
+          "title": "영상화 비교"
+        },
+        {
+          "seconds": 1961,
+          "title": "액션과 시간"
+        },
+        {
+          "seconds": 2184,
+          "title": "강의 범위·목차"
+        },
+        {
+          "seconds": 2685,
+          "title": "질의응답"
+        },
+        {
+          "seconds": 3194,
+          "title": "자료 찾기·감독"
+        },
+        {
+          "seconds": 3465,
+          "title": "납기·결과 확인"
+        }
+      ],
+      "prompts": 3
+    },
+    {
+      "id": "fe5lZ29F6PE",
+      "page": "product-ads.html",
+      "title": "AI로 우주스케일 신발 광고를 제작했습니다",
+      "channel": "영상독학",
+      "duration": "20:21",
+      "published": "2026-08-07",
+      "heartNumber": 17,
+      "sourceBasis": "Full public Korean automatic captions; summaries and original adaptations; no frame-by-frame visual review",
+      "chapters": [
+        {
+          "seconds": 83,
+          "title": "자막과 발의 가림"
+        },
+        {
+          "seconds": 176,
+          "title": "시작·끝 상태"
+        },
+        {
+          "seconds": 210,
+          "title": "빛과 구름 전환"
+        },
+        {
+          "seconds": 285,
+          "title": "여러 참조의 역할"
+        },
+        {
+          "seconds": 349,
+          "title": "제품 시트"
+        },
+        {
+          "seconds": 412,
+          "title": "여러 제품·합성"
+        },
+        {
+          "seconds": 536,
+          "title": "컷별 도구 분업"
+        },
+        {
+          "seconds": 578,
+          "title": "화면 합성"
+        },
+        {
+          "seconds": 708,
+          "title": "동작의 의도"
+        },
+        {
+          "seconds": 828,
+          "title": "반전·동선 스케치"
+        },
+        {
+          "seconds": 936,
+          "title": "반응과 효과음"
+        },
+        {
+          "seconds": 1044,
+          "title": "제품 디테일 컷"
+        }
+      ],
+      "prompts": 3
+    },
+    {
+      "id": "7QJ8c8ME0Z4",
+      "page": "video-vfx.html",
+      "title": "알고보니 VFX도 시댄스가 최강이네요!! 시댄스 영상수정법 공개",
+      "channel": "영상독학",
+      "duration": "14:20",
+      "published": "2026-07-28",
+      "heartNumber": 18,
+      "sourceBasis": "Full public Korean automatic captions; summaries and original adaptations; no frame-by-frame visual review",
+      "chapters": [
+        {
+          "seconds": 19,
+          "title": "이전 실패와 시험 조건"
+        },
+        {
+          "seconds": 85,
+          "title": "단일 컷 선택"
+        },
+        {
+          "seconds": 149,
+          "title": "원본 이해"
+        },
+        {
+          "seconds": 185,
+          "title": "영상·이미지 참조"
+        },
+        {
+          "seconds": 292,
+          "title": "물체 수정 결과"
+        },
+        {
+          "seconds": 363,
+          "title": "인물·동작 유지"
+        },
+        {
+          "seconds": 444,
+          "title": "보기 좋지만 실패"
+        },
+        {
+          "seconds": 527,
+          "title": "경계와 부수 변화"
+        },
+        {
+          "seconds": 635,
+          "title": "정리"
+        }
+      ],
+      "prompts": 3
+    }
+  ],
   "topics": [
     {
       "page": "comparison.html",
@@ -49,6 +326,30 @@
       "title": "최종 검수"
     },
     {
+      "page": "tutorials.html",
+      "title": "신규 영상 5개"
+    },
+    {
+      "page": "voice-direction.html",
+      "title": "음성·연기 · 💗14"
+    },
+    {
+      "page": "image-agents.html",
+      "title": "이미지·자동화 · 💗15"
+    },
+    {
+      "page": "advertising.html",
+      "title": "광고·기획 · 💗16"
+    },
+    {
+      "page": "product-ads.html",
+      "title": "제품·연출 · 💗17"
+    },
+    {
+      "page": "video-vfx.html",
+      "title": "VFX·수정 · 💗18"
+    },
+    {
       "page": "sources.html",
       "title": "출처·변경 기록"
     }
@@ -56,8 +357,8 @@
   "files": [
     {
       "file": "assets/style.css",
-      "bytes": 18378,
-      "sha256": "5a31e6c68b04a66be7b56a75ba39e62fb2cee0fab7a5a613c8efa3e6e3d6925f"
+      "bytes": 19701,
+      "sha256": "4166381ae0d2922bea4b5b83be817841300be20f8e30fc93be9a050447564630"
     },
     {
       "file": "assets/app.js",
@@ -66,78 +367,108 @@
     },
     {
       "file": "index.html",
-      "bytes": 5306,
-      "sha256": "33171a47bc2d4e27ab537e87ba231115a7987ac3a554d27d61debbf3cdc7f9c2"
+      "bytes": 8378,
+      "sha256": "2549fd239bcefacb16dc8c3e6c16f192d9d200210c96674bd62bf7b918e4b1f3"
     },
     {
       "file": "complete.html",
-      "bytes": 69118,
-      "sha256": "732c9cff2f8f36ddaf48fcc061acecedfae1f8cc5ca6fdde9e36d5696aaf94cf"
+      "bytes": 160331,
+      "sha256": "a63641036e7c1a6cba20440fb1453f6c4f6c37138eacca41d9bef77ad9367471"
     },
     {
       "file": "comparison.html",
-      "bytes": 19475,
-      "sha256": "d58ff7db9adebb7ed2910b2b1948fcf64f2a623472d71194169a7a21879e6156"
+      "bytes": 19809,
+      "sha256": "6fe6e55caac63a2fdc898c6b1d346d0465217d3bad8171d5b239b1a54ce53125"
     },
     {
       "file": "characters.html",
-      "bytes": 5344,
-      "sha256": "2c14c51933d9d1b46c78be8c3753565cebf789229e3c8edd84c1ffa8ca3d46fa"
+      "bytes": 6243,
+      "sha256": "c8596fb9c3dcccea4bdd27e5e8550b653165091d305348e409b5e648ddd5d717"
     },
     {
       "file": "camera.html",
-      "bytes": 9539,
-      "sha256": "ba02a0d97477cdf8fe88c8e3bc74e2b4de874d59ff5c93b6966d145a08329fc0"
+      "bytes": 10305,
+      "sha256": "867ce2cac3ab7531fe26d0ab038a69c2ce352b5e228230ae3ff2ece7492b6c27"
     },
     {
       "file": "continuity.html",
-      "bytes": 6385,
-      "sha256": "e6ce68e5c5e5a3f6e6b3351fadf042874bb672ce3de95b4187038cc32c315d00"
+      "bytes": 7213,
+      "sha256": "d0e6486a00f7bbb9350f3f06294588b167ceb44ea49ef5a9d74a5e576a5093fe"
     },
     {
       "file": "acting.html",
-      "bytes": 4887,
-      "sha256": "451a35b6b322fb2714e7b8464fd2ac9b346d3a9f93acd77ec4e3f7edd30f91ad"
+      "bytes": 5716,
+      "sha256": "cea7e0d8cb4ef65eb01c3ce9f6d7c8ec29f0e48540582ba7c2680b3c7fd9cc81"
     },
     {
       "file": "audio.html",
-      "bytes": 6752,
-      "sha256": "55fcb52879c29b28c5ef157b460d09918653ebba91a84bd8ca29c5f5f0f3f029"
+      "bytes": 7520,
+      "sha256": "672a9cca20dd044966c2a9d29a608c3a7debd2cda27180d69b1ac45bf539b447"
     },
     {
       "file": "editing.html",
-      "bytes": 5893,
-      "sha256": "26a1950a53124d9c9fc10d890a44744953b67b3d2436bbe2ba1e64178883cadc"
+      "bytes": 6715,
+      "sha256": "22472b6ea4221640f1da380d14feab20c996c4e55d220213190daa9157bdf7c2"
     },
     {
       "file": "automation.html",
-      "bytes": 6705,
-      "sha256": "bd8236d4f579065750d102dc26828953b6b6364c940719fbcb5d1df9035dfa7c"
+      "bytes": 7486,
+      "sha256": "4c4ddd8b0686e63764b4baf38395d0a867829d2562bfa15cf1bae9d40e8218ee"
     },
     {
       "file": "prompts.html",
-      "bytes": 9176,
-      "sha256": "9d268f663554008e00f0b093532f07ff9d9e45eb77ae2c0f6b01a11a0a018020"
+      "bytes": 9936,
+      "sha256": "85ee57d09ade0b976f6f3717f0fb1d118677bad6376db0bd4568f146f5eb228f"
     },
     {
       "file": "qc.html",
-      "bytes": 8493,
-      "sha256": "5a43533a07c86042415d69fbcfe281db4d9b3ed8f34777ced93f5a04793613ad"
+      "bytes": 9246,
+      "sha256": "75b5495995d3461db49abb2cbf49b50d8c996be2b127ff4f53f11b96cc88dde4"
+    },
+    {
+      "file": "tutorials.html",
+      "bytes": 16353,
+      "sha256": "eb227cea1fea69d6a6f71e6846a490a64153adce2107c74b6dd94761851d5323"
+    },
+    {
+      "file": "voice-direction.html",
+      "bytes": 16073,
+      "sha256": "71916a6b38a5c0ed07e3f08c3ffc6803c3cce568e5a0df4b7b964e8f0c334c55"
+    },
+    {
+      "file": "image-agents.html",
+      "bytes": 15579,
+      "sha256": "77f0e03b0ae2f1c00a74ee4bc563f15ddab87859ac7f972f512c2ea24cf662ac"
+    },
+    {
+      "file": "advertising.html",
+      "bytes": 18139,
+      "sha256": "b9d3c13053ea12b4cda79be356cd9f868b3cf1d937c7e67b7cb8b5a60db252f8"
+    },
+    {
+      "file": "product-ads.html",
+      "bytes": 17010,
+      "sha256": "98a1622a17f3a5f1feb618c1c607247087c3c1cfaba21a45340ecfe37f071807"
+    },
+    {
+      "file": "video-vfx.html",
+      "bytes": 16247,
+      "sha256": "3821df58c6eba6f9d58981f0ddb0ef1764a68ec4af039a63a525c8450cf799e5"
     },
     {
       "file": "sources.html",
-      "bytes": 5013,
-      "sha256": "2f4586c03e65c4753e173704aee4379f65d1dbad94f7727b6f3675b039574ac1"
+      "bytes": 7731,
+      "sha256": "63689fa9f537eee2cf40d310c55f67ada96440e485af26c0aa8e0a12c59bae17"
     },
     {
       "file": "archive-v1.html",
-      "bytes": 51183,
-      "sha256": "a96066f30f528d11166d7622cb2fbb018333258452955e2dba0c2526e16e8c0b"
+      "bytes": 52840,
+      "sha256": "bfaee7dad637aea2bc57c97b8be0296d2ac1b897ebcf381b81b62718c6ea8029"
     },
     {
       "file": "archive-v2.html",
-      "bytes": 57040,
-      "sha256": "8cc12e0a2de1c953690227469840d0ac05f24c04d14fce58687d036aa7068829"
+      "bytes": 58697,
+      "sha256": "7245532e9b7b154f9b5b0b2f9a9aa9f31ca66deee310a5b0f1981a396a69110c"
     },
     {
       "file": ".nojekyll",
@@ -145,9 +476,19 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "file": "downloads/tutorial-handoff.md",
+      "bytes": 2996,
+      "sha256": "93a66330a2c90bf3d0a5593b499058ba16b80e9d43e6e1725e80ac69230ded99"
+    },
+    {
+      "file": "downloads/shot-contract-template.csv",
+      "bytes": 638,
+      "sha256": "da4aeecd792c1932855d9a0c49db3a09c8fc08f2949106f594d37a30192d965d"
+    },
+    {
       "file": "README.md",
-      "bytes": 2482,
-      "sha256": "4371a1eb03a7934aed3368016b4d6161758e19f326123e069cf67e3d9f11163d"
+      "bytes": 4758,
+      "sha256": "12142e98ce6993e94ca16f6a92d930c6c87a5222472132a721abb58af8aef68a"
     }
   ]
 }

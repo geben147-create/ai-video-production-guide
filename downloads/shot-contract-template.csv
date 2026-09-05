@@ -1,0 +1,2 @@
+﻿shot_id,video_type,purpose,cast_ids,product_id,source_video,source_in,source_out,source_fps,source_frames,timeline_in,timeline_out,line_id,speaker_id,ja_text,ko_pronunciation_approx,ko_translation,wav_id,audio_mode,visible_speaker,image_id,reference_roles,action_in,action_out,camera_movement,camera_speed,framing,end_state,transition,change_only,preserve,model_endpoint,quote_status,job_id,qc_status
+S001,story,EXAMPLE_ONLY,C001,P001,,,,,,,,L001,SP001,今日は配達を始めます。,쿄오와 하이타츠오 하지메마스.,오늘은 배달을 시작합니다.,W001,presenter,yes,I001,identity,,,,,,,,,,,UNVERIFIED,,UNVERIFIED
