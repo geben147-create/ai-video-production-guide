@@ -1,8 +1,8 @@
 {
-  "version": "public-20260905-tutorials",
-  "pages": 21,
+  "version": "public-20260906-zero-edit",
+  "pages": 22,
   "originalComparisons": 17,
-  "heartAdditions": 18,
+  "heartAdditions": 19,
   "originalHeartAdditions": 13,
   "cameraTechniques": 20,
   "staticShot": 1,
@@ -490,5 +490,12 @@
       "bytes": 4758,
       "sha256": "12142e98ce6993e94ca16f6a92d930c6c87a5222472132a721abb58af8aef68a"
     }
-  ]
+  ],
+  "zeroEditRules": 20,
+  "zeroEditSteps": 8,
+  "zeroEditTeamSeats": 10,
+  "zeroEditImagePrompts": 12,
+  "zeroEditVideoPrompts": 11,
+  "zeroEditTransitions": 10,
+  "zeroEditSourceLinks": 11
 }
