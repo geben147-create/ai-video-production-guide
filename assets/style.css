@@ -116,3 +116,62 @@ body{font-size:16px;line-height:1.75}h1,h2,h3{word-break:keep-all;overflow-wrap:
 @media(max-width:800px){.section-head{grid-template-columns:1fr}.directory{grid-template-columns:1fr 1fr}.camera-contract{grid-template-columns:1fr 1fr}.cost-line{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.section-title{font-size:2.3rem}}
 @media(max-width:520px){.wrap{width:calc(100% - 2rem)}.directory{grid-template-columns:1fr}.page-title{padding-top:2rem}.section{padding:2.5rem 0}.page-nav a{font-size:.8rem}.camera-contract{grid-template-columns:1fr}.prompt-head{align-items:flex-start;flex-direction:column}.lens-groups{grid-template-columns:1fr}.rule-callout{grid-template-columns:1fr}.split-code{grid-template-columns:1fr}.hero h1{max-width:none}}
 @media print{.site-top,.page-footer,.copy{display:none}body{color:#111;background:white}a{color:#111}.public-note,.topic-link,th,td{color:#111;background:white}section{break-inside:auto}.section-head{display:block}}
+
+/* ── 무편집 설계 · 💗19 (zero-edit.html) 전용 색상 ───────────────────────
+   사이트 기본 민트·핑크와 구별되도록 스틸블루·케이프레드·골드를 씁니다. */
+:root{--steel:#4d8cff;--steel2:#a6c8ff;--cape:#ff5d6c;--gold:#ffd15c}
+
+/* 전 페이지 네비게이션에서 이 탭만 다른 색 */
+.page-nav a[href="zero-edit.html"]{border-color:rgba(77,140,255,.6);color:var(--steel2);background:rgba(77,140,255,.12);font-weight:700}
+.page-nav a[href="zero-edit.html"]:hover{background:rgba(77,140,255,.26);color:#fff}
+.page-nav a[href="zero-edit.html"][aria-current=page]{background:var(--steel);color:#04101f;border-color:var(--steel)}
+
+/* index.html 배너·디렉터리 카드 */
+.tutorial-banner.zero-edit{border-color:#3d63a3;background:linear-gradient(135deg,#101c31,#26161c)}
+.tutorial-banner.zero-edit>span{color:var(--gold)}
+.tutorial-banner.zero-edit .tutorial-cta{background:var(--steel);color:#03101f}
+.tutorial-banner.zero-edit .tutorial-cta:hover{background:var(--steel2)}
+.topic-link.zero-edit{background:#0d1524;border-color:#2f4a7a}
+.topic-link.zero-edit:hover{border-color:var(--steel)}
+.topic-link.zero-edit span{color:var(--gold)}
+.topic-link.zero-edit b{color:var(--steel2)}
+
+/* 페이지 본문 */
+body.zero-edit{background:
+  radial-gradient(circle at 8% 3%,rgba(77,140,255,.13),transparent 29rem),
+  radial-gradient(circle at 92% 18%,rgba(255,93,108,.09),transparent 27rem),var(--ink)}
+.zero-edit .site-top{background:#080e18;border-bottom-color:#22314a}
+.zero-edit .masthead a{color:var(--steel2)}
+.zero-edit .eyebrow{color:var(--steel2)}
+.zero-edit .page-title h1{color:#eaf1ff}
+.zero-edit .tutorial-jumps a{border-color:#2f4a7a;color:var(--steel2);background:rgba(77,140,255,.07)}
+.zero-edit .tutorial-jumps a:hover{background:rgba(77,140,255,.2);color:#fff}
+.zero-edit h3{color:var(--gold);font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2.1rem);margin:2.6rem 0 1rem;padding-top:1.4rem;border-top:2px solid #2b3d5c}
+.zero-edit .table-scroll{border-color:#22314a}
+.zero-edit th{color:var(--steel2);background:#0f1a2c;border-color:#233149}
+.zero-edit td{border-color:#233149}
+.zero-edit td a,.zero-edit .public-note a,.zero-edit .related-links a,.zero-edit .page-footer a{color:var(--steel2)}
+.zero-edit .related-links a{border-color:#2f4a7a}
+.zero-edit .prompt-shell{border-color:#2b3d5c;background:#070c15}
+.zero-edit .prompt-head{border-bottom-color:#2b3d5c;background:#0b1220}
+.zero-edit .prompt-head b{color:var(--gold)}
+.zero-edit .copy{background:var(--steel);color:#03101f}
+.zero-edit .copy:hover{background:var(--steel2)}
+.zero-edit .prompt-shell:focus-within{outline-color:var(--steel)}
+.zero-edit .public-note{border-left-color:var(--gold);background:#12172099}
+.zero-edit .public-note b{color:var(--gold)}
+.zero-edit .codebox{border:1px solid #2b3d5c;background:#070c15;padding:1.2rem;margin:1.2rem 0;overflow:auto;color:#cfe0ff}
+.zero-edit .method-list li{border-bottom-color:#233149}
+.zero-edit .method-list li::marker{color:var(--steel2)}
+.zero-edit code{color:var(--gold);font-family:var(--mono)}
+.zero-edit .section{border-bottom-color:#22314a}
+.zero-edit .page-footer{border-top-color:#22314a}
+.zero-edit a:focus-visible,.zero-edit button:focus-visible,.zero-edit :focus-visible{outline-color:var(--steel)}
+
+/* 강조 단어 — 볼드 + 색상 구분 */
+.zero-edit td b,.zero-edit li b{color:var(--steel2)}
+.sup{color:var(--cape);font-weight:800;letter-spacing:.02em;white-space:nowrap}
+.key{color:var(--gold);font-weight:800}
+.warn{color:var(--cape);font-weight:800}
+.zero-edit .public-note .key{color:#ffe49a}
+@media print{.sup,.key,.warn{color:#111}}
