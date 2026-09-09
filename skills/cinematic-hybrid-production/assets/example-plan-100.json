@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "topic": "범용 배분 예시 — 실제 프로젝트의 대본과 소재로 교체",
   "policy": {
     "total_seconds": 500,
@@ -12,7 +12,41 @@
       "SCENE_084",
       "SCENE_098"
     ],
-    "zero_credit_only": true
+    "zero_credit_only": true,
+    "video_scene_count": 70,
+    "allocation_basis": "default_70_30",
+    "photo_motion_ids": [
+      "SCENE_068",
+      "SCENE_069",
+      "SCENE_071",
+      "SCENE_072",
+      "SCENE_073",
+      "SCENE_074",
+      "SCENE_075",
+      "SCENE_076",
+      "SCENE_077",
+      "SCENE_078",
+      "SCENE_079",
+      "SCENE_080",
+      "SCENE_081",
+      "SCENE_082",
+      "SCENE_083",
+      "SCENE_085",
+      "SCENE_086",
+      "SCENE_087",
+      "SCENE_088",
+      "SCENE_089",
+      "SCENE_090",
+      "SCENE_091",
+      "SCENE_092",
+      "SCENE_093",
+      "SCENE_094",
+      "SCENE_095",
+      "SCENE_096",
+      "SCENE_097",
+      "SCENE_099",
+      "SCENE_100"
+    ]
   },
   "scenes": [
     {
@@ -833,7 +867,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_069",
@@ -849,7 +886,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_070",
@@ -877,7 +917,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_072",
@@ -893,7 +936,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_073",
@@ -909,7 +955,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_074",
@@ -925,7 +974,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_075",
@@ -941,7 +993,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_076",
@@ -957,7 +1012,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_077",
@@ -973,7 +1031,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_078",
@@ -989,7 +1050,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_079",
@@ -1005,7 +1069,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_080",
@@ -1021,7 +1088,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_081",
@@ -1037,7 +1107,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_082",
@@ -1053,7 +1126,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_083",
@@ -1069,7 +1145,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_084",
@@ -1097,7 +1176,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_086",
@@ -1113,7 +1195,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_087",
@@ -1129,7 +1214,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_088",
@@ -1145,7 +1233,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_089",
@@ -1161,7 +1252,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_090",
@@ -1177,7 +1271,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_091",
@@ -1193,7 +1290,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_092",
@@ -1209,7 +1309,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_093",
@@ -1225,7 +1328,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_094",
@@ -1241,7 +1347,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_095",
@@ -1257,7 +1366,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_096",
@@ -1273,7 +1385,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_097",
@@ -1289,7 +1404,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_098",
@@ -1317,7 +1435,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     },
     {
       "frame_id": "SCENE_100",
@@ -1333,7 +1454,10 @@
       "motion_recipe": "R01",
       "source_ids": [
         "S06"
-      ]
+      ],
+      "photo_motion_reason": "후반 설명의 단서를 정지 자료 탐색으로 공개하는 배분 예시. 실제 이미지 선정·검수 후 구체화하며 현재 실행 불가.",
+      "requires_new_action": false,
+      "image_review": "pending"
     }
   ]
 }
