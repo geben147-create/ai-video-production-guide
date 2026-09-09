@@ -1,0 +1,1339 @@
+{
+  "version": "2.0",
+  "topic": "범용 배분 예시 — 실제 프로젝트의 대본과 소재로 교체",
+  "policy": {
+    "total_seconds": 500,
+    "fps": 30,
+    "generation_clip_seconds": 5,
+    "target_video_scene_ratio": 0.7,
+    "image_eligible_from_seconds": 335,
+    "protected_video_ids": [
+      "SCENE_070",
+      "SCENE_084",
+      "SCENE_098"
+    ],
+    "zero_credit_only": true
+  },
+  "scenes": [
+    {
+      "frame_id": "SCENE_001",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 0,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_002",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 5,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_003",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 10,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_004",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 15,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_005",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 20,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_006",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 25,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_007",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 30,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_008",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 35,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_009",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 40,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_010",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 45,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_011",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 50,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_012",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 55,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_013",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 60,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_014",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 65,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_015",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 70,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_016",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 75,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_017",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 80,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_018",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 85,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_019",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 90,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_020",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 95,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_021",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 100,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_022",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 105,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_023",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 110,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_024",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 115,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_025",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 120,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_026",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 125,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_027",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 130,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_028",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 135,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_029",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 140,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_030",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 145,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_031",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 150,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_032",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 155,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_033",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 160,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_034",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 165,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_035",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 170,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_036",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 175,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_037",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 180,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_038",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 185,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_039",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 190,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_040",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 195,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_041",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 200,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_042",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 205,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_043",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 210,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_044",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 215,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_045",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 220,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_046",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 225,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_047",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 230,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_048",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 235,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_049",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 240,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_050",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 245,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_051",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 250,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_052",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 255,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_053",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 260,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_054",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 265,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_055",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 270,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_056",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 275,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_057",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 280,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_058",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 285,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_059",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 290,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_060",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 295,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_061",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 300,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_062",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 305,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_063",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 310,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_064",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 315,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_065",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 320,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_066",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 325,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_067",
+      "purpose": "초중반 서사·행동·공간을 보여줄 영상 슬롯",
+      "mode": "generated_video",
+      "highlight": false,
+      "start_seconds": 330,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_068",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 335,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_069",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 340,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_070",
+      "purpose": "대본에 맞춰 지정할 후반 핵심 하이라이트",
+      "mode": "generated_video",
+      "highlight": true,
+      "start_seconds": 345,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_071",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 350,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_072",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 355,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_073",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 360,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_074",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 365,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_075",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 370,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_076",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 375,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_077",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 380,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_078",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 385,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_079",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 390,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_080",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 395,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_081",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 400,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_082",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 405,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_083",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 410,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_084",
+      "purpose": "대본에 맞춰 지정할 후반 핵심 하이라이트",
+      "mode": "generated_video",
+      "highlight": true,
+      "start_seconds": 415,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_085",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 420,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_086",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 425,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_087",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 430,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_088",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 435,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_089",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 440,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_090",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 445,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_091",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 450,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_092",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 455,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_093",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 460,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_094",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 465,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_095",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 470,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_096",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 475,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_097",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 480,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_098",
+      "purpose": "대본에 맞춰 지정할 후반 핵심 하이라이트",
+      "mode": "generated_video",
+      "highlight": true,
+      "start_seconds": 485,
+      "duration_seconds": 5,
+      "generation_units": 1,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut"
+    },
+    {
+      "frame_id": "SCENE_099",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 490,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "frame_id": "SCENE_100",
+      "purpose": "후반 설명·비교·증거·여운을 위한 이미지 슬롯",
+      "mode": "photo_motion",
+      "highlight": false,
+      "start_seconds": 495,
+      "duration_seconds": 5,
+      "generation_units": 0,
+      "source_image": null,
+      "status": "planned",
+      "transition": "editorial_cut",
+      "motion_recipe": "R01",
+      "source_ids": [
+        "S06"
+      ]
+    }
+  ]
+}

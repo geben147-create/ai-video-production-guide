@@ -1,0 +1,4 @@
+interface:
+  display_name: "범용 영화형 하이브리드 제작"
+  short_description: "약 70% 영상과 후반 사진 연출을 10인 원문 기법으로 설계"
+  default_prompt: "Use $cinematic-hybrid-production to plan this topic with video-led opening and middle, protected highlights, and dramatic late still-image editing with verified sources."

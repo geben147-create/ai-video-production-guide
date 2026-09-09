@@ -1,5 +1,17 @@
 # AI 영상 제작 가이드
 
+## 범용 영화형 하이브리드 제작 스킬 · v2
+
+[스킬 시작](skills/cinematic-hybrid-production/SKILL.md) · [10인 원문·출처](skills/cinematic-hybrid-production/references/sourcebook.md) · [AI 영상 생성 없는 후반 연출 12가지](skills/cinematic-hybrid-production/references/non-generative-recipes.md) · [실제 제작 순서](skills/cinematic-hybrid-production/references/postproduction.md)
+
+역사·도시·건축·과학·경제·인물·제품 등 주제를 바꾸어 사용합니다. 새 기획은 장면 수 기준 약 70% AI 영상과 약 30% 후반 사진 모션을 목표로 하고, 초중반과 후반 핵심 하이라이트는 영상으로 보호합니다. 승인된 기존 계획을 우선하며, 로테르담의 72/28 배분과 510초는 해당 작품의 예시로만 유지합니다.
+
+예고편 전문가 5명과 다큐멘터리 감독 5명의 실제 인터뷰·당사자 기고를 2026-09-09 확인했습니다. 각 항목에 짧은 원문, 원문 위치, 한국어 뜻, 실제 설명한 기법, 본 스킬의 적용 추론, 작품·직함 관계를 기록했습니다. 이들은 실제 검수에 참여한 팀이 아니며, 모두를 Netflix 소속 감독으로 부르지 않습니다. 70:30 비율과 레시피의 초수·레이어 수는 사용자 선호와 자체 제안입니다.
+
+설치할 때 이 저장소의 `skills/cinematic-hybrid-production` 폴더를 Codex의 `skills` 디렉터리에 복사합니다. 기존 동명 스킬은 백업 후 교체하세요. `$cinematic-hybrid-production`으로 호출하거나 관련 작업에서 자동으로 선택할 수 있습니다. 계획 검사에는 Python과 `jsonschema`가 필요합니다: `python scripts/validate_plan.py assets/example-plan-100.json`을 스킬 폴더에서 실행합니다.
+
+이번 확장은 스킬·문서와 계획 검증 도구입니다. 실제 영상 생성·렌더·음원 사용권 검수 완료를 뜻하지 않습니다. [검증 범위](skills/cinematic-hybrid-production/references/verification.md)를 확인하세요.
+
 [공개 웹사이트](https://geben147-create.github.io/ai-video-production-guide/) · [한 페이지 통합판](https://geben147-create.github.io/ai-video-production-guide/complete.html) · [전체 ZIP](https://github.com/geben147-create/ai-video-production-guide/releases/latest)
 
 기존 17개 비교와 💗01~13 추가 원칙을 보존한 한국어 제작 가이드입니다. 캐릭터·이미지, 카메라, 연속성, 연기, 일본어 VOICEVOX·립싱크, 자동 편집, 무료 조건·n8n 자동화, 복사 지시문과 QC를 제공합니다.
