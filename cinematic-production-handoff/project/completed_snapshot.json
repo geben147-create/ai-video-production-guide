@@ -1,0 +1,425 @@
+[
+  {
+    "scene_id": 1,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0-prime",
+    "decode_verified": true,
+    "sha256": "9dc18fe5506ce356c708544de3418f555b318c2475db8cce059ff1f4ebc2432f",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 2,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "f182e27a44b8eb2e64c3d9ec4a805ee01316a451a85e5821ce0beb1d9cd735dc",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 3,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "b21b44ce1dadaf074613c2e3d54cb923de57255d877d05b9304b014407821d78",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 4,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "7cfa36a5f437ed2be0cbecc7cfd2e8586e9fc89df3e6417b4364c0f5dac0f093",
+    "review_status": "sampled_frames_reviewed"
+  },
+  {
+    "scene_id": 5,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "cd2f1cc8d59b9e06c7d9535fc9aaab6b0dbe44830d9a254e6990829e4d188804",
+    "review_status": "sampled_frames_reviewed"
+  },
+  {
+    "scene_id": 6,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "a58af91b25733e2792191841ed7ad5f5de50a0a853137c752768ad346e7e3ddc",
+    "review_status": "sampled_frames_reviewed"
+  },
+  {
+    "scene_id": 7,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "3ab0ff5ff21618d4441b77d6688f07659fa72f2d2e4168feb8aa77c664feadc3",
+    "review_status": "sampled_frames_reviewed"
+  },
+  {
+    "scene_id": 8,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "18e388bbc8e363e48209961b2f57793ec338060ddc25d6df1310df603f0bc350",
+    "review_status": "sampled frames reviewed; kinetic opening trim QC pending"
+  },
+  {
+    "scene_id": 9,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "5317ebaaea6877e515cc2015bc348b41a15a6c03eb0f23c4c3499b7b552f20c9",
+    "review_status": "sampled frames reviewed; kinetic opening trim QC pending"
+  },
+  {
+    "scene_id": 10,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "c99520f531942f41892d91f018d16d114b4c85c10e7462f1ac39aff273597848",
+    "review_status": "actual sampled frames reviewed; onset trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 11,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "a7b9be9ddab05c5059f4117aa19e1ea2cbe88d1742b00402d35f0ea0a4fe573c",
+    "review_status": "sampled frames reviewed; kinetic opening trim QC pending"
+  },
+  {
+    "scene_id": 12,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "b7f6dce5ff4a1a3a1ff8e5b242514425df09d8960e6ca6eab4db479794b9f05c",
+    "review_status": "sampled frames reviewed; opening trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 13,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "0d0eeec79807718ce9552b5254505451b90a693e55084a8cc88c23317769ecda",
+    "review_status": "sampled frames reviewed; opening trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 14,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "747dbe9c36a23e7b62161618416d5df0cce8b99d851fe01bd209e91d5edac9bc",
+    "review_status": "sampled frames reviewed; opening trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 15,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "2ed974513883846e4e7192d03e7c7605c64bbfe52f29781220b2b7c123375e58",
+    "review_status": "sampled frames reviewed; opening trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 16,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "de0099f83608766ef46353d433346219c50fb4e74dbd9d32e321e5569a4632e4",
+    "review_status": "actual sampled frames reviewed; onset trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 17,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "5126d48d330998cb7af865edcd51e90684f55e110461b5a3c4a36c3adebc6313",
+    "review_status": "actual sampled frames reviewed; onset trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 18,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "640d7bb706608780474325b58cd0e1f07340249034a5899d01538c3eb489a132",
+    "review_status": "actual sampled frames reviewed; onset trim and normal-speed boundary QC pending"
+  },
+  {
+    "scene_id": 19,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "05bea2efd418801c01ed57b3ae698347667bb1ac5de3e30a899e60914a13a3b9",
+    "review_status": "saved/decode checked; sampled visual and normal-speed adjacency QC pending"
+  },
+  {
+    "scene_id": 20,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "3352d24f780a04bcc53ee3f4b0707ceff12e1fd2cb6cca83ba7e88b34b66e083",
+    "review_status": "saved/decode checked; sampled visual and normal-speed adjacency QC pending"
+  },
+  {
+    "scene_id": 21,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "8884c775eeb1c2f6720fb4cab745c095e2dc99b7769336fdca1ee5760dab155d",
+    "review_status": "saved/decode checked; sampled visual and normal-speed adjacency QC pending"
+  },
+  {
+    "scene_id": 22,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "49535f56db28f413d100788f6f5772dfb8743d8ef7a695d8e391d71eed7cd71f",
+    "review_status": "actual sampled frames extracted; normal-speed and adjacency QC pending"
+  },
+  {
+    "scene_id": 23,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "1752180cbc93079a8baff6827e2d5d05c7021d5a8c8afb20045b05aba2508361",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 24,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "3952369312fd081d3efddadc85493ce0ec5d3d03ccf36965e79beee6854973db",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 25,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "7f90017af3797b82afb2484e5609624e71ee85aee93272c0a1914b220c2d391d",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 26,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "06f0d962b80752f4f9b76257283db232a94c27fa9dd6840eea553d22270ca815",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 27,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "65d4d5b82299979f05e4a5b7c29b64dda40479ca7f9369c237ac216d6837f139",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 28,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "603e228208fa3a67c953067f1f9e7c0bba2cfae474d48fdd5e858a9aed6dcef9",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 29,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "e4964ebac35bca4ab8a81496dcf93de310dae2886f740586d2aa80211166e2da",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 30,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "37b68d02f121619af64d15bce3fda14082896f5ff1c27b3d682d574f96c2104c",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 31,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "258f6240bd3108a0e3e1b620e237e1e2069d16267536658189199095789cb576",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 32,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "0c856f19b27eb4c9f8ffb69cd437cf0e02fbcae4b2f2b1016690287b81f5d1d4",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 33,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "2bcd92929e0ef8449e05515a7010e1a4786787331ff5fca3486e98a182ecab1c",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 34,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "3f36a01fa617cf5225187674feeb4148af0e795db907b0f6649119deb116d650",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 35,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "43fee19b11f82f6f2fa7a0d1de95fe83bd71d182ad45fb5e72cd668c4cadfcb3",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 36,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "1568af367fea759cda177ba34397449ec1bd3f32b9262d8c4735c925004c2c7c",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 37,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "58200115ff441891f43e85be0ede3d9952b3bce11f9f8cff6f33241bb74e34cf",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 38,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "841ca6f35b73e98ef77fe7b861aed949c1f8bad03e3e29603958d9ed65eacc24",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 39,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "1ff62d6b7022b22a287b421fbd3496ebe20f86393483677c62638f158a5740d8",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 40,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "42bb006e04ffea57ca01db79fb11a5732b7bc4b4e11933259cb24a6276434c86",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 41,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "66a77c60f4b67b0353ae0c873aa35154c7d7c7bb3e37cfc67b4e04b36427fdc2",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 42,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "6b52174ddf77cc49e0db890ac402f6f0789b0472575fac47f066f79049b3fbfc",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 43,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "a43a7ee9f824bc07e3da9166492b50d711c18cbb3f7df1b4a04d9b4913a7d27d",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 44,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "11d8d279c1379d16c49f7fe4973c1fef1f2c9b1e350bcebc8a0e5c1c3120b616",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 45,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "11997cbc6f207ff53c33dacc0ac77c969a93076b0c4ab4c6d7e93870d9908485",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 46,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "0f68d23f2d509c783a727dad9f20b5252fe91e8f65a0023d3ef0fd7eddd68803",
+    "review_status": "unreviewed"
+  },
+  {
+    "scene_id": 47,
+    "status": "saved",
+    "brand": "alibaba",
+    "model": "wan-v3-0",
+    "decode_verified": true,
+    "sha256": "eee490d5c327267c58894558f19993da168a3c63e573feef668d82d1e29d6292",
+    "review_status": "unreviewed"
+  }
+]

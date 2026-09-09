@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cinematic scene contract",
+  "type": "object",
+  "required": [
+    "scene_id",
+    "script",
+    "duration_s",
+    "image_prompt",
+    "video_prompt",
+    "depth",
+    "lighting",
+    "continuity",
+    "status"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "script": {
+      "type": "string"
+    },
+    "duration_s": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "timing_evidence": {
+      "enum": [
+        "estimated",
+        "voice_measured"
+      ]
+    },
+    "image_prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "video_prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_image": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "camera": {
+      "type": "object",
+      "properties": {
+        "angle": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        },
+        "lens_proposal": {
+          "type": "string"
+        },
+        "subject_distance": {
+          "type": "string"
+        },
+        "movement_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "depth": {
+      "type": "object",
+      "required": [
+        "foreground",
+        "midground",
+        "background",
+        "target"
+      ],
+      "properties": {
+        "foreground": {
+          "type": "string"
+        },
+        "midground": {
+          "type": "string"
+        },
+        "background": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "travel_corridor": {
+          "type": "string"
+        }
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "required": [
+        "evidence",
+        "source",
+        "direction"
+      ],
+      "properties": {
+        "evidence": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "direction": {
+          "type": "string"
+        },
+        "contrast": {
+          "type": "string"
+        },
+        "softness": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "particles": {
+          "type": "string"
+        },
+        "time_change": {
+          "type": "string"
+        },
+        "next_connection": {
+          "type": "string"
+        }
+      }
+    },
+    "continuity": {
+      "type": "object",
+      "required": [
+        "mode"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "independent",
+            "editorial_motion_match",
+            "actual_last_frame"
+          ]
+        },
+        "last_frame_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "velocity_in": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "velocity_out": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "direction_in": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "direction_out": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_position": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_anchor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "provider_request": {
+      "type": "object"
+    },
+    "quote_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Two exact fresh raw responses; runtime gate also required."
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "prepared",
+        "quoted",
+        "submitted",
+        "provider_succeeded",
+        "downloaded",
+        "decode_verified",
+        "visually_reviewed",
+        "blocked_cost",
+        "failed"
+      ]
+    }
+  }
+}
