@@ -3,11 +3,12 @@
 ## 먼저 원인을 분리한다
 해상도=픽셀 수, 디테일=재질이 남는 정도, 시간 안정성=프레임 사이 형태 유지, 연출=운동과 정보 공개, 연결=앞뒤 컷의 시선·운동 일치다. 768p라도 건축이 녹거나 공간이 튀면 품질이 낮다. 실제 같은 소스·같은 길이로 비교하지 않은 모델 우열은 단정하지 않는다.
 
-## 1. 시작 이미지의 공간을 지킨다
-원본에 있는 한 공간에서 카메라가 어디서 어디까지 가는지 쓴다. 통로가 없는데 사람 사이 관통, 닫힌 벽 통과, 보이지 않는 항구→시장→궁전의 연쇄 공개를 한 번에 요구하지 않는다. 공간이 달라질 때는 편집 컷으로 분리한다. 원경의 보이지 않는 면은 재구성이라 정확한 연속성으로 주장할 수 없다.
+## 1. 원래 세션의 동선을 먼저 보존한다
+이 세션에서 사용했던 원문 프롬프트를 시작점으로 삼는다. 도시→하강→골목→전경 가림→새 공간 공개 같은 연쇄와 속도 표현을 요약하거나 삭제하지 않는다. 통로·대상·방향이 모호한 부분만 구체화한다. 서로 다른 공간의 생성적 재구성을 실측 지리로 주장하지 않는다.
 
-## 2. 속도와 복잡도를 구별한다
-EXTREME를 반복하는 대신 전경이 스치는 방향·거리, 이동 목표, 고도 변화 하나를 구체화한다. 기본 권장: 주 이동1개, 보조 행동1개, 큰 방향 변경1개, 주 공개1개. 하이라이트에서만 검증된 두 번째 공개를 허용한다. 카메라 속도를 낮추지 않고 동시에 바뀌는 사물 수를 줄인다. 모든 컷에 5단계 급강하→회전→상승을 복붙하지 않는다.
+## 2. 극도로 빠른 속도와 연속 공개가 기본이다
+첫 프레임부터 EXTREME MOTION. 0.5~1.2초마다 전경 통과·방향·고도·규모·목표 변화를, 1.5~2.5초마다 강한 공개를 목표로 한다. 이는 설계 목표이며 실제 결과에서 검수한다. FAST→FASTER→BANK→REVEAL→DIVE→BOOST의 리듬을 유지한다. `한 이동·한 공개`로 제한하지 않는다. 속도의 종류를 바꾸되 전환 전에 감속하지 않는다.
+재질·손·기둥 오류를 고치려고 카메라를 정지시키거나 평범한 팬·줌으로 바꾸지 않는다. 특정 오류 물체의 묘사·접촉·가림 위치만 수정한다. 모델이 동선을 구현하지 못하면 원래 리듬을 유지하는 컷 분할을 검토하며 역동성 축소를 자동 대안으로 사용하지 않는다.
 
 ## 3. 고정할 요소를 이름으로 적는다
 `The marble columns, rooflines and paving remain rigid and retain their layout. The vase stays turquoise glass throughout.`처럼 핵심 구조·재질을 지정한다. 단순 `stable architecture`만으로 해결된다고 기대하지 않는다. 인물이 중요하지 않으면 배경 크기로 유지하고 얼굴로 접근하지 않는다. 모션블러는 빠른 가까운 전경에만 두고 목표 재질은 읽히게 한다.
@@ -26,21 +27,18 @@ EXTREME를 반복하는 대신 전경이 스치는 방향·거리, 이동 목표
 2 시작 이미지에서 보이는 구도와 공간.
 3 첫 프레임부터 이동할 방향과 목표.
 4 렌즈 가까운 전경 통과.
-5 하나의 강한 공개와 피사체 행동.
+5 연속적인 강한 공개·급강하·뱅크·규모 전환과 피사체 행동.
 6 고정 기하·재질·광원.
 7 종료 방향과 다음 앵커.
 8 꼭 필요한 제외 항목만.
 
-### 범용 영어 템플릿
-`[Scene and purpose]. Starting from the supplied image, the camera is already moving rapidly [direction] toward [visible target]. [One near foreground object] sweeps past [side] with strong parallax. The camera [one controlled bank/rise] to reveal [one information-bearing destination] while keeping forward momentum. [Subject action if necessary]. Preserve [named geometry/materials] and the fixed [light direction]. End moving [direction] with [anchor] at [screen position]. No talking faces, no HUD, no morphing materials, no slow start or frozen end.`
+### 범용 영어 템플릿 — 속도와 연속 전환 보존
+`[Scene and purpose]. The camera is already moving at extreme speed from frame one. It races [path A], with [foreground] whipping inches past the lens. Without slowing, it hard-banks [direction] and [occluder] wipes the frame, instantly revealing [space/target B]. It immediately dives toward [target C], skims [surface], then climbs into [scale reveal D]. Keep [named structures/materials] consistent and the light fixed. The final movement carries full velocity toward [next anchor and position]. Extreme parallax, rapid visual discoveries, no slow start, no hovering, no deceleration before turns, no frozen end, no talking face or HUD.`
+괄호는 해당 소스·대본에 맞춘다. 모든 장면에 동일 동선을 복사하지 않고 원문 동선의 종류를 교차한다.
 
-### 개선 예시: 포룸
-`Rome AD117, Trajan's Forum. Starting beneath the existing red canopy, the camera is already moving rapidly forward through the clear aisle. The canopy fringe whips above the lens. One shallow upward bank reveals the equestrian statue framed by the existing marble colonnade. Keep columns, rooflines and statue rigid; keep daylight from camera-left. Small pedestrians remain in the middle distance, with no face close-ups. Carry forward motion toward the statue at center-right. No HUD, material morphing, slow start or frozen end.`
-과거 요청의 광장 진입·바닥 다이브·동상 상승·파사드 돌진을 한 공간/한 공개로 줄인 제작 제안이다. 아직 생성 성공 검증을 한 예시는 아니다.
-
-### 개선 예시: 벽돌 도장
-`A close lateral tracking shot along the supplied Roman brick sample. The camera is moving immediately; nearby clay grains pass quickly across the bottom edge. A short rack focus reveals the existing stamped impression under fixed raking light. Keep the brick stationary, its edges and clay material unchanged. Do not invent lettering or turn the surface into metal. Finish with the stamp at center. No face, overlay or material morph.`
-실제 도장 글자 판독은 원본 자료로 하고 생성 영상이 새 글자를 만들어 증거가 되게 하지 않는다.
+### 포룸: 이 세션 원래 동선을 유지한 예시
+`Rome AD117 scene 048. Axial 18mm blockbuster reveal of Trajan's Forum. From the first frame the camera surges between the near red curtain and marble column, both sweeping past inches from the lens. It races behind the rear-facing visitors into the vast plaza, dives low over reflective imported marble, then rises toward the equestrian statue and Basilica Ulpia facade while retaining full forward momentum. Human figures show scale and never address the camera. Stable architecture, statue and floor pattern; no HUD, no text, no slow drone, no hover, no frozen end.`
+이것은 원래 준비 프롬프트다. 광장 진입→바닥 다이브→동상·파사드 상승을 삭제하지 않는다. 추가 개선이 필요하면 대리석 재질 고정·기둥 배열 유지 등의 국소 제약을 덧붙인다.
 
 ## 모델 변경 시
-현재 실제 OpenAPI 필드를 다시 확인한다. Wan 프롬프트를 H3로 옮기더라도 해상도/오디오/종료프레임 지원을 별도 확인한다. 장식적 형용사보다 구체적 공간 지시를 유지한다. H3 768p가 현재 프로젝트의 무료 해상도라는 사실과 품질 우위는 별개다.
+현재 실제 OpenAPI 필드를 다시 확인한다. Wan 프롬프트를 H3로 옮기더라도 해상도/오디오/종료프레임 지원을 별도 확인한다. 원문의 extreme speed, dive, bank, rise, foreground wipe와 연속 reveal을 삭제·완화하지 않는다. 구체적 공간 지시를 추가해 의미를 유지한다. H3 768p가 현재 프로젝트의 무료 해상도라는 사실과 품질 우위는 별개다.
