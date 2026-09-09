@@ -1,0 +1,500 @@
+[
+  {
+    "scene_id": 1,
+    "provenance": "prompt_missing_in_job",
+    "model": "wan-v3-0-prime",
+    "prompt": null
+  },
+  {
+    "scene_id": 2,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD 117, scene 002. Face-neutral opening replacement: the camera is already racing forward from inside an empty wooden doorway, low over the stone threshold; olive leaves whip past the left lens before 0.4 seconds. It banks hard through the clear central opening, roof tiles rush below, then makes a fast controlled drop toward the crowded street, ending still moving toward the bridge. Preserve the empty Roman city source, no bed, no waking person, no hands, no face, no first-person body, no HUD, no text. Cinematic 21mm physical travel, extreme parallax, no slow start, no hover, no zoom, no frozen end."
+  },
+  {
+    "scene_id": 3,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD 117, scene 003. Face-neutral opening replacement: the camera is already moving at extreme speed sideways along the visible wooden door edge and bronze hinge; the near door hardware wipes the frame before 0.4 seconds, revealing the sunlit Roman skyline. It immediately dives through the unobstructed center above rooflines, makes one hard bank around the tall cypress line, and exits toward the bright river bridge at full velocity. Preserve source geometry and light, no person, no arm, no hand, no face, no avatar view, no HUD, no text, no slow start, no hovering, no static end."
+  },
+  {
+    "scene_id": 4,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 004, five seconds. 0.00-0.35s already hurtling forward-right over the near terracotta ridge; tiles streak below. 0.35-1.10s dive past the roof lip and expose the busy street. 1.10-2.00s race along the air lane above awnings. 2.00-2.90s bank sharply right without braking, bringing the immense amphitheatre into right-center. 2.90-3.90s climb past the cypress edge for a huge city reveal. 3.90-5.00s boost toward the amphitheatre with close roof ridges whipping by; finish still travelling. Single continuous live-action cinematic take of an interpretive ancient Roman reconstruction. The camera is already travelling at extreme speed in the FIRST FRAME. No initial hold or gradual acceleration. Motivated physical travel and strong near foreground parallax, not a lens zoom. Architecture remains rigid; no geometry morphs, teleportation, passing through solid walls, fantasy additions or random smoke. No frontal presenter, facial close-up, avatar arms, game HUD, lettering or subtitle. Sun stays fixed upper-left in world space. No slow pan, slow orbit, hovering, lingering, braking before turns, pause before reveals or frozen end pose. Rapid visual changes roughly every 0.5-1.2 seconds. Full forward or lateral velocity carries into the last frame."
+  },
+  {
+    "scene_id": 5,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 005, five seconds. 0.00-0.40s already racing at cobblestone height past the left stone plinth. 0.40-1.30s rush along the amphitheatre through the open lane; the cart wheel flashes near the right edge. 1.30-2.40s bank with the rigid curved facade without slowing; arches whip past and reveal monumental scale. 2.40-3.80s climb sharply beside the facade as the upper arcade appears. 3.80-5.00s a red banner edge briefly wipes the frame while forward-lateral travel continues at full speed. People stay small, rear-facing or cropped. Do not enter the arena. Single continuous live-action cinematic take of an interpretive ancient Roman reconstruction. The camera is already travelling at extreme speed in the FIRST FRAME. No initial hold or gradual acceleration. Motivated physical travel and strong near foreground parallax, not a lens zoom. Architecture remains rigid; no geometry morphs, teleportation, passing through solid walls, fantasy additions or random smoke. No frontal presenter, facial close-up, avatar arms, game HUD, lettering or subtitle. Sun stays fixed upper-left in world space. No slow pan, slow orbit, hovering, lingering, braking before turns, pause before reveals or frozen end pose. Rapid visual changes roughly every 0.5-1.2 seconds. Full forward or lateral velocity carries into the last frame."
+  },
+  {
+    "scene_id": 6,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 006, five seconds. 0.00-0.35s already moving extremely fast ABOVE the balcony rail; red textile and timber post whip past. 0.35-1.20s clear the rail and dive to awning height above the crowded street. 1.20-2.10s race above heads along the visible central lane, awnings streak past the lens. 2.10-3.10s bank left around the fountain to reveal the intersecting crowd flows. 3.10-4.10s chase the ox cart from above and behind, then clear a near awning edge. 4.10-5.00s sharp oblique climb exposes dense rooftops and the vast city; finish with continuous forward travel and no stop. Single continuous live-action cinematic take of an interpretive ancient Roman reconstruction. The camera is already travelling at extreme speed in the FIRST FRAME. No initial hold or gradual acceleration. Motivated physical travel and strong near foreground parallax, not a lens zoom. Architecture remains rigid; no geometry morphs, teleportation, passing through solid walls, fantasy additions or random smoke. No frontal presenter, facial close-up, avatar arms, game HUD, lettering or subtitle. Sun stays fixed upper-left in world space. No slow pan, slow orbit, hovering, lingering, braking before turns, pause before reveals or frozen end pose. Rapid visual changes roughly every 0.5-1.2 seconds. Full forward or lateral velocity carries into the last frame."
+  },
+  {
+    "scene_id": 7,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 007, 5 seconds. 0.00-0.40s an external side-mounted film camera is already sliding rapidly RIGHT past the close brass key and woven tunic, key swings once naturally as the person steps toward the street. The person's head stays entirely above and outside the frame. 0.40-1.20s the doorpost wipes the near left edge, reveal the sunlit public square through the existing OPEN space at right. 1.20-2.10s thrust forward along that clear passage at extreme speed, no collision or passage through the person. 2.10-3.20s bank right around the fountain to reveal the contrast between ordinary workers and the distant wealthy residence, all people small or rear-facing. 3.20-4.30s a near red banner briefly crosses the lens, exposing the line of monumental columns. 4.30-5.00s continue a hard lateral tracking exit past a column edge; no stop and no upward tilt into the close person's face. Single continuous live-action cinematic take of an interpretive ancient Roman reconstruction. The camera is already travelling at extreme speed in the FIRST FRAME. No initial hold or gradual acceleration. Motivated physical travel and strong near foreground parallax, not a lens zoom. Architecture remains rigid; no geometry morphs, teleportation, passing through solid walls, fantasy additions or random smoke. No frontal presenter, facial close-up, avatar arms, game HUD, lettering or subtitle. Sun stays fixed upper-left in world space. No slow pan, slow orbit, hovering, lingering, braking before turns, pause before reveals or frozen end pose. Rapid visual changes roughly every 0.5-1.2 seconds. Full forward or lateral velocity carries into the last frame."
+  },
+  {
+    "scene_id": 8,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 008. Five-second extremely fast film sequence. 0.00-0.40 already sliding extremely fast to camera-right past the close purple-striped toga; the senator keeps facing away and never turns his head. 0.40-1.30 accelerate through the clear aisle to the RIGHT of him, a marble column edge whips past. 1.30-2.10 the brilliant atrium, mosaic and reflecting pool open up suddenly. 2.10-3.30 hard bank alongside the pool without crossing a person or column, reveal the wealth of red and blue frescoes. 3.30-4.30 glide rapidly under the colonnade past a close potted plant and bronze fitting. 4.30-5.00 maintain a fast moving exit behind a column edge; no frozen courtyard pose. Start with visible motion on frame one, no acceleration wait. Strong physical foreground parallax. Keep source illumination fixed in world space. No frontal talking head, face close-up, avatar body, game HUD, captions, slow motion, hovering, lens zoom as primary movement, repeated orbit, stopping at a reveal, braking before a turn, teleportation, melting architecture, fake inscriptions or new random smoke."
+  },
+  {
+    "scene_id": 9,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 009. Five-second extremely fast film sequence. 0.00-0.40 already in a fast table-height slide LEFT across the coin and bronze container; close object edges whip past. 0.40-1.20 pass beside the scale chain as the merchant lowers the weight onto the RIGHT pan; keep his head entirely out of frame. 1.20-2.10 sharp low rise follows the pan swing and reveals saffron on the LEFT pan. 2.10-3.20 bank around the GREEN GLASS BOTTLE toward the market visible on the left; do not travel through the bottle or tabletop. 3.20-4.20 race past the actual awning edge at the stall opening, the busy marketplace expands behind. 4.20-5.00 keep travelling down the open market lane at full speed. Natural hand movement, intact scale chains, no magical change of goods. Start with visible motion on frame one, no acceleration wait. Strong physical foreground parallax. Keep source illumination fixed in world space. No frontal talking head, face close-up, avatar body, game HUD, captions, slow motion, hovering, lens zoom as primary movement, repeated orbit, stopping at a reveal, braking before a turn, teleportation, melting architecture, fake inscriptions or new random smoke."
+  },
+  {
+    "scene_id": 10,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 010. Five-second extremely fast film sequence. 0.00-0.40 already making a very fast low lateral move LEFT past the foreground olive leaves and brass key. The owner keeps his head turned away at the extreme right and is quickly left behind. 0.40-1.20 follow the key turning briefly as the already OPEN wooden door shifts slightly farther aside. Never fly through the solid door or hand. 1.20-2.10 surge through the EXISTING OPEN GAP to the workshop, past the edge of the stool. 2.10-3.20 make a hard bank at tabletop height to reveal tools, bronze work and sculptural pieces. 3.20-4.10 pass close beside the tall tool holder with strong parallax. 4.10-5.00 race toward the sunlit opening at the back without exiting into unseen geometry. Statues remain stationary stone/bronze, not living people. Start with visible motion on frame one, no acceleration wait. Strong physical foreground parallax. Keep source illumination fixed in world space. No frontal talking head, face close-up, avatar body, game HUD, captions, slow motion, hovering, lens zoom as primary movement, repeated orbit, stopping at a reveal, braking before a turn, teleportation, melting architecture, fake inscriptions or new random smoke."
+  },
+  {
+    "scene_id": 11,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 011. [SCENE] 빵 바구니를 들고 귀족 집 후문을 지나는 노동자의 등 뒤를 따른다. Main visual subject: 빵 바구니. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 빵 바구니 옆면을 스치며 서비스 통로 질주→앞서 걷는 노동자 옆으로 회전→열린 후문 뒤 부유한 실내 공개 [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 빵 바구니. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #012 두 집의 문턱 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 12,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 012. [SCENE] 좁은 임대주택 문과 멀리 밝은 대저택 문이 한 골목에서 대비된다. Main visual subject: 두 집의 문턱. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 fast forward past rough door timber, 0.40 low travel along the EMPTY center-right cobbles, by 1.40 sunlit marble portico wealth appears against poor brick buildings, 2.10 hard lateral bank at the foot of stairs to compare brick and marble, 3.20 fast close pass beside olive pot, 4.00 climb beside the stairs without intersecting people, 5.00 a marble column fills the near edge while movement continues. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 두 집의 문턱. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #013 수레바퀴 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 13,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 013. [SCENE] 돌길의 수레바퀴 옆으로 빵 운반자와 가게를 여는 상인이 지나간다. Main visual subject: 수레바퀴. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already rushing at axle height just to the RIGHT of the moving wooden cart wheel, 0.40 wheel spokes whip left across frame, 1.30 low forward travel reveals bread carrier and bakery action, 2.00 bank right alongside bread basket without overtaking into a face, 3.00 pull ahead into the clear street beside the carrier, 4.00 market banner wipes the upper edge and reveals the fountain beyond, 5.00 still moving toward the fountain. Cart rolls naturally; never pass through wheel, horse or person. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 수레바퀴. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #014 빈 물통 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 14,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 014. [SCENE] 궁전과 경비병보다 앞에 선 물통 든 주민들을 보여준다. Main visual subject: 빈 물통. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 extremely fast LEFT lateral tracking at jar-rim height, terracotta handles pass very close while all residents remain rear-facing, 0.60 first jar wipes the edge and reveals the long water queue, 1.50 fast low sweep beside the fountain basin rather than through people, 2.40 hard bank toward the LEFT bronze water spout, 3.30 jar mouth becomes close foreground against the stream, 4.10 water spray briefly wipes the lens edge, 5.00 velocity continues along the water stream. Keep soldiers distant as context, water queue is the subject. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 빈 물통. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #015 분수 출수구 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 15,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 015. [SCENE] 공공 분수의 청동 출수구에서 물이 햇빛을 받아 쏟아진다. Main visual subject: 분수 출수구. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already sweeping extremely fast left and DOWN alongside the falling stream from the fixed bronze lion, 0.40 droplets streak past close to lens, 1.30 basin splash is revealed in macro, 2.10 hard lateral bank along the open basin rim without entering stone, 3.00 skim just above the basin water to reveal bronze reflections and impact ripples, 3.80 rise just above the basin to reveal the queue beyond, 4.40 water spray crosses the near foreground, 5.00 continue a fast lateral exit. No underwater tunnel or imaginary waterfall; lion stays fixed metal. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 분수 출수구. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #016 납관 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 16,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 016. [SCENE] 분수 아래로 이어지는 납관을 설명용 단면으로 보여준다. Main visual subject: 납관. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already tracking extremely fast RIGHT at exposed pipe height, the near brick ledge streaks across the bottom edge by 0.35. 1.20 a pipe collar fills the near foreground and reveals separate joined segments. 2.00 hard rising diagonal bank along the OPEN face of the cutaway, never through pipe or soil. 3.10 reveal the above-ground fountain supplying the public square, water visibly flowing. 4.00 skim laterally beside the basin lip for a stone-edge wipe and 5.00 continue moving right toward falling water. Do not claim visible water inside the opaque pipe; no new reservoir appears in this shot. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 납관. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #017 분배 저수조 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 17,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 017. [SCENE] 여러 관에서 물이 들어오는 석조 저수조의 내부를 보여준다. Main visual subject: 분배 저수조. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already travelling extremely fast RIGHT just above the front basin water, the near wet rim streaks below the lens. 0.50 splash from the left outlet briefly crosses the edge. 1.40 hard bank toward the rear pipe row with the camera clearing the partition tops. 2.40 successive fixed outlets and separate basins are revealed by real parallax. 3.40 rise over the nearest rim to reveal the whole distribution geometry and sunlit stairwell at upper left. 4.30 sweep beside falling water for a droplet wipe; 5.00 maintain lateral motion. Water flows naturally, no underwater passage or new doorway. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 분배 저수조. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #018 수로 통로 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 18,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 018. [SCENE] 어두운 수로 내부 끝에서 밝은 계곡과 수로교가 나타난다. Main visual subject: 수로 통로. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already racing forward extremely fast just above the central water channel; wet ledges whip past both lens edges before 0.4. 1.20 arch stones grow rapidly and the distant valley appears. 2.00 pass through the EXISTING OPEN arch without intersecting stone; 2.80 hard right bank outside reveals the distant aqueduct across the valley. 3.50 climb quickly alongside the outside edge, retaining the aqueduct as the readable target. 4.20 existing leaves at the opening brush the frame edge as the valley scale opens. 5.00 carry full forward-right velocity toward the aqueduct. No teleport to a city, no new bridge, no wall penetration. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 수로 통로. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #019 수로교 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 19,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 019. [SCENE] 계곡을 가로지르는 수로교 너머 먼 수원지 산지가 이어진다. Main visual subject: 수로교. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already descending extremely fast diagonally RIGHT from the foreground olive branch toward the near face of the aqueduct; leaves whip across the lens by0.3. 1.30 near stone voussoirs reveal the arch height against tiny workers. 2.20 hard bank ALONG the aqueduct face, clearing scaffolding and solid piers rather than flying through them. 3.10 climb to channel height to reveal the long water route receding LEFT toward the hills. 4.10 pass closely beside a stationary timber scaffold edge. 5.00 continue fast along the aqueduct toward distant source landscape. Preserve exact masonry and bridge structure; do not add monuments. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 수로교. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #020 샘과 취수 시설 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 20,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 020. [SCENE] 브라치아노 호수 부근의 샘에서 아쿠아 트라이아나가 시작되는 모습을 재구성한다. Main visual subject: 샘과 취수 시설. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already sweeping extremely fast RIGHT from beside the small foreground cascade, real water spray skims the lens edge before0.4. 1.30 low traversal above the open basin reveals the four dark square outlet mouths. 2.20 hard rising bank around the OUTSIDE right stone corner, never into a small outlet. 3.20 reveal the stepped channels, source vegetation and lake beyond together. 4.10 pass beside an existing stone parapet with strong parallax. 5.00 continue rightward above the channel. Workers stay back/side facing and act naturally; shrine door remains closed and no building is entered. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 샘과 취수 시설. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #021 급수망 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 21,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 021. [SCENE] 지형 위 수원지·수로·로마가 하나의 급수망으로 연결된다. Main visual subject: 급수망. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already in an extremely fast descending oblique flight toward the near golden water route on this INTERPRETIVE LANDSCAPE MAP, near foliage streaking away before0.4. 1.30 follow the existing route from the lower-right terrain toward its central junction. 2.20 hard bank LEFT above the junction reveals the lake intake branch. 3.20 immediately swing forward and climb, revealing the route continuing toward the city at upper right. 4.10 hill crest passes close below the lens; 5.00 keep flying toward the city route, still moving. The golden line is an explanatory map overlay fixed to terrain, never molten metal or a magic river. No new route, labels, icons, UI, or changed geography. This is a spatial map explanation, not literal camera travel over50km. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 급수망. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #022 개인 분수 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 22,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 022. [SCENE] 부잣집의 개인 분수 앞에서 수도 공급의 특권을 보여준다. Main visual subject: 개인 분수. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already moving extremely fast RIGHT at the private pool rim, near marble and the foreground cloth whip past below the lens. 0.70 fountain spray catches the edge. 1.50 hard forward bank ABOVE the pool surface reveals the flower garden and rich colonnade. 2.50 clear the far marble rim and drive toward the OPEN gap between the columns, avoiding the stationary couch and statues. 3.40 reveal the painted walls and furnished shaded portico. 4.20 a real column edge sweeps across the near right frame. 5.00 continue rapid lateral travel along the colonnade without entering the dark doorway. All sculptures stay still as stone; no living presenter or statue animation. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 개인 분수. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #023 물통의 손잡이 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 23,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 023. [SCENE] 위층 주민이 공공 분수에서 채운 물통을 들고 계단 앞에 선다. Main visual subject: 물통의 손잡이. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already making an extremely fast lateral move RIGHT beside the near right vessel, rim and wet clay streak close before0.4. 1.20 a short upward sweep follows the hand-to-handle load without showing a frontal face. 2.00 hard bank toward the EMPTY right edge of the stair flight as the resident starts climbing naturally. 3.10 rise along that open side above the steps to reveal their steep length and upper window. 4.20 near stair edge wipes the lower frame; 5.00 continue upward. No avatar view, no body penetration, no new floors or impossible rapid human running. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 물통의 손잡이. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #024 인술라 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 24,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 024. [SCENE] 가게 위로 네 층의 주거가 올라간 인술라 외벽을 보여준다. Main visual subject: 인술라. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already travelling extremely fast RIGHT along the foreground produce-stall edge, near awning fringe whipping past by0.4. 1.20 bread shop at the base of the insula is revealed. 2.00 hard upward bank just OUTSIDE the building corner, clearing the fabric awning. 3.00 rapid rise reveals the stacked residential windows and balconies. 4.00 a projecting balcony edge passes beside the lens, never through it. 5.00 continue rising beside the facade while the street shrinks below. Preserve existing floor count and roof, no new tower or modern additions. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 인술라. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #025 빵집 작업대 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 25,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 025. [SCENE] 빵집·술집·작업장이 이어지는 1층 회랑을 옆으로 훑는다. Main visual subject: 빵집 작업대. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already racing RIGHT at bread-counter height across the OPEN street strip, near foreground rope whips past before0.3. 1.20 bread and the working bakery oven are revealed. 2.00 a fixed shop pier wipes the edge as camera continues right beside the facade. 2.80 reveal the tavern's bronze vessels and real patrons from side/back; 3.50 the hanging jug emblem crosses overhead. 4.20 reveal the adjacent metalworker's open shop. 5.00 keep rightward velocity past copper pans. Existing oven produces only local smoke; no added explosion, front-facing host or passage through hot oven. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 빵집 작업대. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #026 계단 난간 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 26,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome scene 026. [SCENE] 짐을 든 주민 뒤에서 2층 계단을 오른다. Main visual subject: 계단 난간. [STYLE] Interpretive AD117 Roman film reconstruction. Photographic material detail, jewel teal/emerald, terracotta and controlled bronze-gold, luminous marble and deep dimensional shadows. Preserve the source architecture, props, wardrobe and world-space light direction. No fantasy additions, modern objects, text, game HUD, frontal presenter or avatar arms. [CAMERA / movement and timing] 0.00 already rushing UPWARD alongside the handrail while remaining above the open stair flight, worn wood and the tied sack pass very close before0.4. 1.30 hand gripping rail makes the labor of climbing legible. 2.20 rapid rise clears the landing rail top without intersecting hand or wood. 3.10 hard RIGHT bank in the open stairwell air reveals the landing and daylight window, keeping the closed door untouched. 4.10 the existing hanging red cloth crosses the near edge. 5.00 continue laterally beside the landing rail. The resident climbs at natural speed, no new doorway or duplicated stairs. [CAMERA / speed] EXTREME from frame one; one coordinated physical route, timed vector changes with continuous momentum; no start/end hold. [CAMERA / framing lock] Hero: 계단 난간. Keep the intended target readable. Traverse only visible open space; do not cross people or solid architecture. [CAMERA / end] Continue travelling through the outgoing foreground/anchor: #027 계단의 빈 공간 / CENTER_MIDDLE. No pose, freeze or slowdown. Planned state only until output is reviewed. [AVOID] no slow start, slow pan, orbiting without purpose, hovering, lens zoom instead of travel, teleportation, melting structures, extra people, new random smoke, frozen end. Natural human motion. One legible information goal; frame-edge occlusion is motivated by actual foreground. No subtitles or synthetic speech."
+  },
+  {
+    "scene_id": 27,
+    "provenance": "prompt_missing_in_job",
+    "model": "wan-v3-0",
+    "prompt": null
+  },
+  {
+    "scene_id": 28,
+    "provenance": "prompt_missing_in_job",
+    "model": "wan-v3-0",
+    "prompt": null
+  },
+  {
+    "scene_id": 29,
+    "provenance": "prompt_missing_in_job",
+    "model": "wan-v3-0",
+    "prompt": null
+  },
+  {
+    "scene_id": 30,
+    "provenance": "prompt_missing_in_job",
+    "model": "wan-v3-0",
+    "prompt": null
+  },
+  {
+    "scene_id": 31,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 031. Rear cinematic perspective behind a seated poet; face remains fully outside frame. Camera is already making a rapid lateral move from frame one past cracked plaster and the near edge of his crimson cloak, follows the scroll across his hands, then banks through the clear right side toward the bright city window, revealing the cramped rented room and distant temple. Natural hand motion, fixed architecture and sunlight, no readable text, no face, no HUD, no avatar view, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 32,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 032. High oblique insert over a Roman writing desk, face completely outside frame. Camera already races low across the parchment edge from frame one, the oil lamp passes extremely close as a motivated foreground wipe, then a decisive 55-degree bank reveals the cramped room and small bright window. The scroll and one hand move naturally; flame flickers but objects remain stable. No readable writing, no face, no HUD, no slow pan, no orbit, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 33,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 033. Sunlit provincial Roman courtyard. Camera is already gliding fast just above the low stone wall; close flowers and vine leaves sweep past the lens before 0.4 seconds. It crosses the open gate, banks around the visible column without collision, reveals the modest house, table and deep village lane, and exits down the clear right street at full motion. People remain distant and rear-facing. No frontal face, no HUD, no text, no slow start, no impossible architecture."
+  },
+  {
+    "scene_id": 34,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 034. Cinematic view from an empty dark room toward a busy Roman work street. Camera is already moving fast along the rough window sill; the near timber frame wipes the left lens, then it surges through the existing open window above the sill into the street, descending toward workshops, carts and porters before a controlled bank toward the forum. Preserve fixed window geometry and natural crowd motion. No avatar body, no frontal presenter, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 35,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 035. Cinematic market intersection, object-driven rather than presenter-driven. From frame one the camera races laterally behind the very close bronze helmet and hanging lamps, using their reflections as fast foreground wipes, then arcs around the fixed workbench to reveal the craftsman handing the small bronze horse to the red-cloaked buyer. It continues past the exchange toward the crate porters and monumental arch at full speed. Faces stay profile, rear-facing or midground; the exchanged object remains sharp and stable. Natural worker motion, fixed architecture, no talking head, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 36,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 036. Extreme macro food-market shot with no visible face. The camera is already skimming fast across the cracked bread crust from frame one, flour texture streaking close beneath the lens. It banks tightly around the main loaf, passes the seller's moving forearm as a natural occlusion wipe, and reveals the glossy olive bowls, clay jar and busy forum depth without stopping. Bread, olives and table geometry remain stable; only the seller's arm and distant crowd move naturally. No presenter, no HUD, no readable text, no slow zoom, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 37,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 037. High overhead market-table choreography with food as the subject and all faces outside frame. Camera is already sweeping fast above the near wine vessel, its rim crossing the lens as a curved foreground wipe, then executes a controlled clockwise arc over silver fish, figs and grapes toward the central garum amphora. Without pausing it drops closer to the amphora seal, then whips toward the bread at right as the next anchor. Preserve every bowl, amphora and tabletop position; do not distort or animate existing lettering. Natural hands only at the outer edges, no HUD, no new text, no slow orbit, no hover, no frozen end."
+  },
+  {
+    "scene_id": 38,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 038. Extreme close cinematic insert, no face. From the first frame the camera darts along the torn bread edge as the reaching hand suddenly stops above it, revealing the airy crumb and falling flour particles in sharp side light. The camera makes one fast scale change past the broken crust and lands on the small wooden bowl of wheat grains at lower right, then exits toward the grain at full momentum. The hand, fingers, bread and bowl remain anatomically and structurally stable; only a few natural crumbs fall. No presenter, no HUD, no text, no slow motion, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 39,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 039. Ground-level macro at a Roman grain warehouse, no close face. Camera is already rushing through the sunlit wheat kernels from frame one, grains passing inches from the lens with extreme parallax. The loose burlap flap sweeps across the frame as a motivated wipe, revealing the deep warehouse doorway, stacked sacks, rear-facing porters and waiting cart; the camera keeps moving toward the nearest sack. Grain and architecture stay stable, with only a few kernels shifting naturally. No presenter, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 40,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 040. Low 28mm tracking shot beside grain porters loading a wooden cart at the harbor. From frame one the camera races past the close grain basket and cart wheel, then tracks the heavy sack as two workers roll it into place. Without slowing it banks through the warehouse arch line and reveals the cargo ship waiting on the sunlit water. People remain rear-facing or profile; anatomy, cart, sack and masonry remain stable. Natural labor motion, no talking head, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 41,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 041. Waterline 21mm cinematic pursuit along a grain ship at Portus. The camera is already skimming fast over the waves from the first frame; thick mooring rope and spray whip extremely close across the lens. It surges beside the fixed black hull, hard-banks around the bow without collision, and reveals cranes lifting grain sacks, long brick warehouses and a deep harbor full of sails. Workers remain small and rear-facing. Preserve hull, rigging and architecture; physically motivated water spray only. No HUD, no text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 42,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 042. Cinematic macro-to-map transition across a tactile relief map of the Mediterranean, no people or faces. Camera already speeds past the near wheat bowl and bronze eagle from frame one, drops onto a glowing grain route near Egypt, then follows the physical route west across ships and islands at high velocity. A close model sail briefly occludes the lens and reveals Rome's harbor marker in a dramatic scale change. Map relief, coastlines and ships remain coherent; route light moves forward only. No labels, no HUD, no modern interface, no slow pan, no hover, no frozen end."
+  },
+  {
+    "scene_id": 43,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 043. High-wide cinematic chase above an endless grain-cart convoy entering Rome. The camera is already racing beside the close foreground sacks from frame one; burlap rims and crane ropes sweep past the lens with strong parallax. It dives toward the lead ox cart, banks with its motion through the warehouse street, then climbs just enough to reveal the convoy, river bridge, tiled city roofs and Colosseum scale without stopping. People remain small and rear-facing. Stable carts, animals and architecture, natural dust only, no presenter, no HUD, no text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 44,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 044. Eye-level 35mm comparison inside a sunlit portico: grain distribution on the left, coin purchase at the market on the right. Camera is already racing low across close sacks and the bronze grain basin, then follows the pouring scoop along the queue. A near column briefly wipes the frame; the camera emerges beside the blue-cloaked buyer's coin exchange and drives toward the open forum. Faces remain side-on, rear-facing or background, never a talking head. Stable hands, grain, scales and columns; no HUD, no new text, no slow pan, no hover, no frozen end."
+  },
+  {
+    "scene_id": 45,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 045. Storm-driven 35mm waterline pursuit of a grain ship, showing weather as the hidden cost of food. Camera begins already surging through a close wave; spray wipes the lower lens, then it races along the fixed red-and-black hull beneath taut rigging and hard-banks around the bronze figurehead. The ship climbs a swell, sacks and rear-facing crew react naturally, and a gap in the storm reveals the distant Roman harbor before the camera exits with the bow's momentum. Coherent hull, sail and sea physics; no frontal face, no HUD, no new text, no slow motion, no hover, no frozen end."
+  },
+  {
+    "scene_id": 46,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 046. Top-oblique 65mm macro over a harbor accounting desk, no face. From frame one the camera darts across close silver coins toward the bronze balance; swinging chains cross the lens as a precise foreground wipe while one hand presses the red wax seal on the freight document. It then races along the document edge toward the open harbor, revealing cranes and the ship that created the cost. Preserve scale, coins, seal, paper and hand anatomy; only chains, hand and distant porters move naturally. No readable writing, no HUD, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": 47,
+    "provenance": "recorded_submission",
+    "model": "wan-v3-0",
+    "prompt": "Rome AD117 scene 047. Low-wide 24mm approach from a shaded market into Trajan's Forum. Camera is already racing beneath the close red canopy from frame one; tassels, hanging bronzeware and olive leaves whip across the lens as layered foreground wipes. It threads through the clear central aisle behind rear-facing pedestrians, then the canopy edge clears in one hard reveal of the bright marble portico, equestrian statue and monumental steps. Preserve stalls, columns and crowd anatomy. No talking head, no HUD, no new text, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": null,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_031_034.json",
+    "prompt": "Rome AD117 scene 031. Rear cinematic perspective behind a seated poet; face remains fully outside frame. Camera is already making a rapid lateral move from frame one past cracked plaster and the near edge of his crimson cloak, follows the scroll across his hands, then banks through the clear right side toward the bright city window, revealing the cramped rented room and distant temple. Natural hand motion, fixed architecture and sunlight, no readable text, no face, no HUD, no avatar view, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": null,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_031_034.json",
+    "prompt": "Rome AD117 scene 032. High oblique insert over a Roman writing desk, face completely outside frame. Camera already races low across the parchment edge from frame one, the oil lamp passes extremely close as a motivated foreground wipe, then a decisive 55-degree bank reveals the cramped room and small bright window. The scroll and one hand move naturally; flame flickers but objects remain stable. No readable writing, no face, no HUD, no slow pan, no orbit, no hover, no frozen ending."
+  },
+  {
+    "scene_id": null,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_031_034.json",
+    "prompt": "Rome AD117 scene 033. Sunlit provincial Roman courtyard. Camera is already gliding fast just above the low stone wall; close flowers and vine leaves sweep past the lens before 0.4 seconds. It crosses the open gate, banks around the visible column without collision, reveals the modest house, table and deep village lane, and exits down the clear right street at full motion. People remain distant and rear-facing. No frontal face, no HUD, no text, no slow start, no impossible architecture."
+  },
+  {
+    "scene_id": null,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_031_034.json",
+    "prompt": "Rome AD117 scene 034. Cinematic view from an empty dark room toward a busy Roman work street. Camera is already moving fast along the rough window sill; the near timber frame wipes the left lens, then it surges through the existing open window above the sill into the street, descending toward workshops, carts and porters before a controlled bank toward the forum. Preserve fixed window geometry and natural crowd motion. No avatar body, no frontal presenter, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 35,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_035_038.json",
+    "prompt": "Rome AD117 scene 035. Cinematic market intersection, object-driven rather than presenter-driven. From frame one the camera races laterally behind the very close bronze helmet and hanging lamps, using their reflections as fast foreground wipes, then arcs around the fixed workbench to reveal the craftsman handing the small bronze horse to the red-cloaked buyer. It continues past the exchange toward the crate porters and monumental arch at full speed. Faces stay profile, rear-facing or midground; the exchanged object remains sharp and stable. Natural worker motion, fixed architecture, no talking head, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 36,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_035_038.json",
+    "prompt": "Rome AD117 scene 036. Extreme macro food-market shot with no visible face. The camera is already skimming fast across the cracked bread crust from frame one, flour texture streaking close beneath the lens. It banks tightly around the main loaf, passes the seller's moving forearm as a natural occlusion wipe, and reveals the glossy olive bowls, clay jar and busy forum depth without stopping. Bread, olives and table geometry remain stable; only the seller's arm and distant crowd move naturally. No presenter, no HUD, no readable text, no slow zoom, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 37,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_035_038.json",
+    "prompt": "Rome AD117 scene 037. High overhead market-table choreography with food as the subject and all faces outside frame. Camera is already sweeping fast above the near wine vessel, its rim crossing the lens as a curved foreground wipe, then executes a controlled clockwise arc over silver fish, figs and grapes toward the central garum amphora. Without pausing it drops closer to the amphora seal, then whips toward the bread at right as the next anchor. Preserve every bowl, amphora and tabletop position; do not distort or animate existing lettering. Natural hands only at the outer edges, no HUD, no new text, no slow orbit, no hover, no frozen end."
+  },
+  {
+    "scene_id": 38,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_035_038.json",
+    "prompt": "Rome AD117 scene 038. Extreme close cinematic insert, no face. From the first frame the camera darts along the torn bread edge as the reaching hand suddenly stops above it, revealing the airy crumb and falling flour particles in sharp side light. The camera makes one fast scale change past the broken crust and lands on the small wooden bowl of wheat grains at lower right, then exits toward the grain at full momentum. The hand, fingers, bread and bowl remain anatomically and structurally stable; only a few natural crumbs fall. No presenter, no HUD, no text, no slow motion, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 39,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_039_042.json",
+    "prompt": "Rome AD117 scene 039. Ground-level macro at a Roman grain warehouse, no close face. Camera is already rushing through the sunlit wheat kernels from frame one, grains passing inches from the lens with extreme parallax. The loose burlap flap sweeps across the frame as a motivated wipe, revealing the deep warehouse doorway, stacked sacks, rear-facing porters and waiting cart; the camera keeps moving toward the nearest sack. Grain and architecture stay stable, with only a few kernels shifting naturally. No presenter, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 40,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_039_042.json",
+    "prompt": "Rome AD117 scene 040. Low 28mm tracking shot beside grain porters loading a wooden cart at the harbor. From frame one the camera races past the close grain basket and cart wheel, then tracks the heavy sack as two workers roll it into place. Without slowing it banks through the warehouse arch line and reveals the cargo ship waiting on the sunlit water. People remain rear-facing or profile; anatomy, cart, sack and masonry remain stable. Natural labor motion, no talking head, no HUD, no text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 41,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_039_042.json",
+    "prompt": "Rome AD117 scene 041. Waterline 21mm cinematic pursuit along a grain ship at Portus. The camera is already skimming fast over the waves from the first frame; thick mooring rope and spray whip extremely close across the lens. It surges beside the fixed black hull, hard-banks around the bow without collision, and reveals cranes lifting grain sacks, long brick warehouses and a deep harbor full of sails. Workers remain small and rear-facing. Preserve hull, rigging and architecture; physically motivated water spray only. No HUD, no text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 42,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_039_042.json",
+    "prompt": "Rome AD117 scene 042. Cinematic macro-to-map transition across a tactile relief map of the Mediterranean, no people or faces. Camera already speeds past the near wheat bowl and bronze eagle from frame one, drops onto a glowing grain route near Egypt, then follows the physical route west across ships and islands at high velocity. A close model sail briefly occludes the lens and reveals Rome's harbor marker in a dramatic scale change. Map relief, coastlines and ships remain coherent; route light moves forward only. No labels, no HUD, no modern interface, no slow pan, no hover, no frozen end."
+  },
+  {
+    "scene_id": 43,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_043_046.json",
+    "prompt": "Rome AD117 scene 043. High-wide cinematic chase above an endless grain-cart convoy entering Rome. The camera is already racing beside the close foreground sacks from frame one; burlap rims and crane ropes sweep past the lens with strong parallax. It dives toward the lead ox cart, banks with its motion through the warehouse street, then climbs just enough to reveal the convoy, river bridge, tiled city roofs and Colosseum scale without stopping. People remain small and rear-facing. Stable carts, animals and architecture, natural dust only, no presenter, no HUD, no text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 44,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_043_046.json",
+    "prompt": "Rome AD117 scene 044. Eye-level 35mm comparison inside a sunlit portico: grain distribution on the left, coin purchase at the market on the right. Camera is already racing low across close sacks and the bronze grain basin, then follows the pouring scoop along the queue. A near column briefly wipes the frame; the camera emerges beside the blue-cloaked buyer's coin exchange and drives toward the open forum. Faces remain side-on, rear-facing or background, never a talking head. Stable hands, grain, scales and columns; no HUD, no new text, no slow pan, no hover, no frozen end."
+  },
+  {
+    "scene_id": 45,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_043_046.json",
+    "prompt": "Rome AD117 scene 045. Storm-driven 35mm waterline pursuit of a grain ship, showing weather as the hidden cost of food. Camera begins already surging through a close wave; spray wipes the lower lens, then it races along the fixed red-and-black hull beneath taut rigging and hard-banks around the bronze figurehead. The ship climbs a swell, sacks and rear-facing crew react naturally, and a gap in the storm reveals the distant Roman harbor before the camera exits with the bow's momentum. Coherent hull, sail and sea physics; no frontal face, no HUD, no new text, no slow motion, no hover, no frozen end."
+  },
+  {
+    "scene_id": 46,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_043_046.json",
+    "prompt": "Rome AD117 scene 046. Top-oblique 65mm macro over a harbor accounting desk, no face. From frame one the camera darts across close silver coins toward the bronze balance; swinging chains cross the lens as a precise foreground wipe while one hand presses the red wax seal on the freight document. It then races along the document edge toward the open harbor, revealing cranes and the ship that created the cost. Preserve scale, coins, seal, paper and hand anatomy; only chains, hand and distant porters move naturally. No readable writing, no HUD, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": 47,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_047_050.json",
+    "prompt": "Rome AD117 scene 047. Low-wide 24mm approach from a shaded market into Trajan's Forum. Camera is already racing beneath the close red canopy from frame one; tassels, hanging bronzeware and olive leaves whip across the lens as layered foreground wipes. It threads through the clear central aisle behind rear-facing pedestrians, then the canopy edge clears in one hard reveal of the bright marble portico, equestrian statue and monumental steps. Preserve stalls, columns and crowd anatomy. No talking head, no HUD, no new text, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": 48,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_047_050.json",
+    "prompt": "Rome AD117 scene 048. Axial 18mm blockbuster reveal of Trajan's Forum. From the first frame the camera surges between the near red curtain and marble column, both sweeping past inches from the lens. It races behind the rear-facing visitors into the vast plaza, dives low over reflective imported marble, then rises toward the equestrian statue and Basilica Ulpia facade while retaining full forward momentum. Human figures show scale and never address the camera. Stable architecture, statue and floor pattern; no HUD, no text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 49,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_047_050.json",
+    "prompt": "Rome AD117 scene 049. Floor-level 21mm movement inside Basilica Ulpia. Camera is already skimming at extreme speed over the circular porphyry and green marble inlay, its polished veins streaking beneath the lens. It banks around a massive red column base as a close occlusion, then executes a rapid vertical climb that reveals the forest of colored columns, coffered ceiling and distant imperial statue. Visitors remain small, rear-facing and stable. Preserve every architectural axis and floor pattern; no HUD, no text, no slow tilt, no hover, no frozen ending."
+  },
+  {
+    "scene_id": 50,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_047_050.json",
+    "prompt": "Rome AD117 scene 050. Low 50mm power composition among bronze monuments. Camera begins already racing past the enormous foreground horse leg, its bronze surface wiping the left frame. It hard-banks around the central equestrian statue pedestal, climbs along the raised horse, and reveals the seated Dacian captive sculptures across the upper portico as a second scale change. Guards remain small and rear-facing; statues and architecture stay immovable and coherent. No living talking head, no HUD, no new text, no slow orbit, no hover, no frozen end."
+  },
+  {
+    "scene_id": 51,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_051_054.json",
+    "prompt": "Rome AD117 scene 051. High-wide 28mm cinematic descent over Trajan's Market. Camera is already racing along the near terrace rail from frame one; bronze vase, grapes, laurel leaves and red cloth streak past as foreground layers. It hard-banks over the railing and descends along the immense curved brick facade, revealing stacked arcades, busy lower stalls and the Quirinal hillside in one continuous scale change. People remain tiny and rear-facing. Preserve arches, terraces and hillside geometry; no HUD, no new text, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 52,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_051_054.json",
+    "prompt": "Rome AD117 scene 052. 85mm macro of construction money financing imperial marble. From frame one the camera darts through the near stacks of gold and silver coins; one counting hand places a coin while a crane chain and trophy shadow sweep across the table as motivated wipes. The camera passes the coin edge, revealing workers hauling giant marble blocks and scaffolding behind the accounting desk, then carries momentum toward the column site. Keep hands anatomical, coins and blocks stable, faces distant. No presenter, no HUD, no readable text, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": 53,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_051_054.json",
+    "prompt": "Rome AD117 scene 053. Low 65mm kinetic ascent on Trajan's Column. Camera is already rushing around the massive pedestal from frame one; a nearby lamp and column edge whip across the lens. It locks onto the carved spiral campaign frieze and climbs rapidly with the stone narrative, changing scale from shield details to the full towering shaft and emperor statue against the sky, then exits toward one carved shield. The column and surrounding architecture remain perfectly fixed; crowds stay small and rear-facing. No HUD, no text, no slow orbit, no hover, no frozen end."
+  },
+  {
+    "scene_id": 54,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_051_054.json",
+    "prompt": "Rome AD117 scene 054. 100mm macro across a painted stone shield in Trajanic relief, no living face. Camera begins already sliding fast along chisel marks and the carved soldier's hand, with the near stone edge wiping the lens. It banks across the red-and-blue winged shield boss, closes until the circular boss fills the frame, and finishes with forward momentum for a shape-match into a real legionary shield. Stone figures and architecture remain immovable; only sunlit dust motes drift naturally. No HUD, no text, no slow zoom, no hover, no frozen end."
+  },
+  {
+    "scene_id": 55,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_055_058.json",
+    "prompt": "Rome AD117 scene 055. Low 28mm tracking inside a Roman legion crossing the Danube on a timber pontoon bridge. Camera is already racing beside the close shield line from frame one; shield rims, rope coils and bridge posts whip past the lens with violent parallax. It threads behind marching soldiers, banks toward the cavalry crossing at water level, and reveals the far bridgehead and mountain road without slowing. All faces stay hidden by helmets or turned away. Stable shields, horses, bridge and river physics; no presenter, no HUD, no new text, no slow start, no hover, no frozen end."
+  },
+  {
+    "scene_id": 56,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_055_058.json",
+    "prompt": "Rome AD117 scene 056. Ground-wide 24mm uphill pursuit behind Roman infantry advancing on a Dacian mountain fortress. Camera is already climbing fast beside the enormous foreground shield, scraping visually past rocks, pine branches and spear shafts without collision. It overtakes the rear-facing column, hard-banks around a boulder, and the fortress wall suddenly fills the skyline to reveal its intimidating height. Natural marching rhythm and light dust, stable armor, terrain and fortifications. No frontal faces, no HUD, no new text, no slow walk, no hover, no frozen end."
+  },
+  {
+    "scene_id": 57,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_055_058.json",
+    "prompt": "Rome AD117 scene 057. Rear over-shoulder 35mm view from behind the Dacian king at his mountain parapet; his face never appears. Camera begins already sliding fast along the coarse fur cloak, which wipes the left lens, then surges over the stone wall toward the Roman standards and cavalry streaming through the valley. It drops toward the bridge, banks with the army's direction and leaves the king as a dark scale reference behind. Fixed fortress, mountains and standards; physically motivated mist only. No frontal face, no HUD, no text, no slow push, no hover, no frozen end."
+  },
+  {
+    "scene_id": 58,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_055_058.json",
+    "prompt": "Rome AD117 scene 058. Medium 50mm return from battle memory to the bright Forum relief. Camera is already racing along the carved shield rim from frame one; the round boss fills the lens as a brief stone occlusion. It pulls laterally across the fixed marching figures, revealing Trajan's Column courtyard, library facade, banners and distant visitors, then exits toward the next trophy relief in full motion. Sculpture stays completely immovable; only sunlight, leaves and distant robes move naturally. No living close face, no HUD, no text, no slow orbit, no hover, no frozen end."
+  },
+  {
+    "scene_id": 63,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_063_066.json",
+    "prompt": "Rome AD117 scene 063. Extreme macro 100mm forensic cinematic shot of an ancient brickmaker's stamp in clay. Camera starts already racing millimeters above the red clay grains; a dusty foreground particle streaks across lens, then a hard lateral bank reveals the impressed lettering and date marks in sharp raking sunlight. Keep the brick physically stable and legible, no hands or faces, no text overlay, no HUD, no slow movement, no frozen end."
+  },
+  {
+    "scene_id": 64,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_063_066.json",
+    "prompt": "Rome AD117 scene 064. Top-down 65mm cinematic research table. Camera is already moving fast across ancient brick-stamp samples, foreground fragments wipe the lens, then a gloved hand slides one specimen beside another as the camera hard-banks into their matching marks. Show only hands, no face, keep artifacts stable, textured and historically grounded. No labels, no HUD, no slow pan, no pause, no frozen end."
+  },
+  {
+    "scene_id": 65,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_063_066.json",
+    "prompt": "Rome AD117 scene 065. Low 18mm blockbuster construction reveal inside the unfinished dome scaffold. Camera begins in a high-speed upward climb through near timber beams, beams whip close past lens, then it banks under a ring of unfinished masonry to reveal the immense skeletal dome and tiny rear-facing workers for scale. Stable timber geometry, no faces, no modern gear, no text, no HUD, no slow drone, no hover, no frozen end."
+  },
+  {
+    "scene_id": 66,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_063_066.json",
+    "prompt": "Rome AD117 scene 066. 50mm cinematic architectural cutaway. The camera is already driving fast along a brick wall; the brick surface fills the near foreground and wipes the lens, then the camera penetrates a clean cross-section to reveal rough stone aggregate embedded in Roman concrete core. Dust motes catch a narrow warm beam. Keep brick courses and masonry physically stable. No people, no text, no HUD, no slow move, no pause, no frozen end."
+  },
+  {
+    "scene_id": 67,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_067_070.json",
+    "prompt": "Rome AD117 scene 067. Extreme macro forensic passage across volcanic ash, lime and white lime clasts. Camera begins at high speed along the granular surface; a dust grain crosses inches from lens, then a sharp bank reveals the contrasting materials under raking light. Physical textures stable, no people, no labels, no HUD, no slow movement, no frozen end."
+  },
+  {
+    "scene_id": 68,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_067_070.json",
+    "prompt": "Rome AD117 scene 068. Close 50mm construction reenactment: camera already races over dry lime and pozzolana mix, a wooden tool wipes the foreground, then water strikes the mixture and a controlled cloud of steam and dust reveals the reaction. Show only workers' hands, no faces. Stable vessels, no text, no HUD, no slow move, no pause."
+  },
+  {
+    "scene_id": 69,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_067_070.json",
+    "prompt": "Rome AD117 scene 069. Cinematic 35mm evidence-limits composition. Camera surges from a near research specimen through a foreground wipe toward a distant Pantheon construction model, then hard-banks to hold a visible gap between sample and model. No people or faces, stable objects, no labels, no HUD, no slow pan, no frozen end."
+  },
+  {
+    "scene_id": 70,
+    "provenance": "prepared_request_file",
+    "source_file": "requests_067_070.json",
+    "prompt": "Rome AD117 scene 070. Macro 100mm investigation of a pale lime clast inside an ancient crack. Camera is already accelerating through the crack, wall edges streak close to lens, then it dives onto the lime inclusion as side light reveals mineral texture. No people, no text, no HUD, no slow movement, no pause, no frozen end."
+  }
+]
